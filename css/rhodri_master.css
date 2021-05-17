@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@import "rhodri_grid.css";
+@import "rhodri_fonts.css";
+@import "rhodri_header.css";
+@import "rhodri_footer.css";
+@import "rhodri_nav.css";
+@import "fonts.css";
+
+body {
+  padding: 0;
+  margin: auto 0;
+}
+
+a.custom {
+  text-decoration: none;
+  border-bottom: 1px solid #B6BBBE;
+}
+
+a.custom:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #647683;
+  color: #647683;
+}
+
+.social {
+  background-color: #cef1f0;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.social:hover {
+  background-color: #ffffff;
+  transition: 200ms ease-in;
+}
+
+.social-icons {
+  display: inline-flex;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+svg {
+  margin-bottom: -0.25rem;
+}
+
+.fw-regular{
+  font-weight: 400;
+}
+
+.main_content_colour {
+  background-color: #89ccca;
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+/*  background-image: url("../img/me-2.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}*/
+
+.main_content {
+  overflow: hidden;
+}
+
+.mb-none {
+  margin-bottom: 0;
+}
+
+.mb-xxs {
+  margin-bottom: 0.25rem;
+}
+
+.mb-xs {
+  margin-bottom: 0.5rem;
+}
+
+.mb-s {
+  margin-bottom: 1rem;
+}
+
+.mb-m {
+  margin-bottom: 1.5rem;
+}
+
+.mb-l {
+  margin-bottom: 2rem;
+}
+
+.mb-xl {
+  margin-bottom: 2.5rem;
+}
+
+.mb-xxl {
+  margin-top: 3rem;
+}
+
+.mt-none {
+  margin-top: 0;
+}
+
+.mt-xs {
+  margin-top: 0.5rem;
+}
+
+.mt-s {
+  margin-top: 1rem;
+}
+
+.mt-m {
+  margin-top: 1.5rem;
+}
+
+.mt-l {
+  margin-top: 2rem;
+}
+
+.mt-xl {
+  margin-top: 2.5rem;
+}
+
+.mt-xxl {
+  margin-top: 3rem;
+}
+
+.mt-xxxl {
+  margin-top: 3.25rem;
+}
+
+.mt-mxl {
+  margin-top: -0.75rem;
+}
+
+.mr-none {
+  margin-right: 0
+}
+
+.centre-text{
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px){
+
+}

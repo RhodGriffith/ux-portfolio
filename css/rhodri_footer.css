@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* .footer {
+  background-color: #F7F300;
+  height: 200px;
+} */
+
+@media screen and (min-width: 769px) and (max-width: 1023px){
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px){
+
+.header_top {
+  padding: 1rem 0;
+}
+
+}
+
+@media screen and (max-width: 499px){
+
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="436px" height="383px" viewBox="0 0 436 383" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>blob-shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-wide-1200px" transform="translate(-702.000000, -113.000000)" fill="#F7F300" fill-rule="nonzero">
+            <g id="blob-shape" transform="translate(927.267287, 297.694313) rotate(100.000000) translate(-927.267287, -297.694313) translate(734.767287, 89.694313)">
+                <path d="M365.166932,94.3947563 C388.681988,136.84783 386.553929,186.748812 382.29781,248.460048 C378.148094,310.277682 371.763916,383.90557 334.522876,406.887685 C297.281836,429.976199 229.290337,402.525339 165.448554,370.286538 C101.500368,338.047738 41.8083013,301.020997 15.8459763,241.01214 C-10.1163487,180.896885 -2.34893181,97.7995142 41.2762865,50.7712968 C84.7951018,3.84947808 164.171719,-7.10958615 228.33271,5.01986358 C292.493702,17.0429146 341.651875,52.048081 365.166932,94.3947563 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
