@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<title>Links – Neptune</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link rel="stylesheet" href="../css/master.css" media="all">
+</head>
+
+<body>
+
+<header>
+	<div class="navbar">
+		<div class="ds-hero" id="navbar">
+			<div class="container container--full-width">
+				<div class="grid">
+	    			<div class="grid__col col-3@m">
+						<a href="../index.html"><img src="../img/lexis-icon.svg" class="lexis-icon" alt="Neptune"></a>
+					</div>
+					<div class="grid__col col-9@m">
+						<div class="topnav">
+							<div class="topnav-right">
+								<a href="../index.html">Home</a>
+								<a href="../styles.html">Styles</a>
+								<a href="../components.html" class="active">Components</a>
+								<a href="../patterns.html">Patterns</a>
+								<a href="">Accessibility</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section>
+	<div class="sidenav">
+	  <a href="accordion.html">Accordion</a>
+	  <a href="buttons.html">Buttons</a>
+	  <a href="checkbox.html">Checkbox</a>
+	  <a href="footer.html">Footer</a>
+	  <a href="header.html">Header</a>
+	  <a href="" class="active">Links</a>
+	  <a href="radio-button.html">Radio button</a>
+	  <a href="text-input.html">Text input</a>
+	</div>
+</section>
+
+<main>
+	<div class="main">
+		<div class="sidenav-container">
+			<div class="ds-article">
+				<nav aria-label="Breadcrumb" class="u-mt-l">
+					<ol class="breadcrumb">
+					  <li><a href="../index.html">Home</a></li>
+					  <li><a href="../components.html">Components</a></li>
+					  <li class="bc-active">Links</li>
+					</ol>
+				</nav>
+				<section>
+					<div class="ds-para">
+						<h1 class="u-mt-l u-fs-xxxl">Links</h1>
+						<p class="u-fs-s">Links provide a simple means of navigating between pages in products and websites</p>
+					</div>
+					<div class="seperator u-mt-l"></div>
+				</section>
+				<section>
+					<p class="u-fs-m u-dark u-fw-600 u-mt-l">Contents</p>
+					<ol class="list list--bare u-mt-s">
+						<li class="list__item"><a href="#section1">Primary link</a></li>
+						<li class="list__item"><a href="#section2">Secondary link</a></li>
+						<li class="list__item"><a href="#section3">Background colour</a></li>
+						<li class="list__item"><a href="#section4">Usage guidance</a></li>
+						<li class="list__item"><a href="#section5">Accessibility</a></li>
+						<li class="list__item"><a href="#section6">Related research</a></li>
+					</ol>
+				<div class="seperator u-mt-l"></div>
+				</section>
+
+				<section>
+					<div class="ds-para">
+						<a id="section1"></a>
+						<h2 class="u-mt-l u-fs-xl">Primary link</h2>
+						<p class="u-fs-body">The primary link should be used as the default variant. These are blue and should be used for increased emphasis.</p>
+						<p class="u-fs-body">There are two variants of the primary link. An underlined version for inline text and a standalone version with no underline. The standalone version should only be used when the placement and context of the link is explicit enough that a visible underline isn’t necessary.</p>
+					</div>
+					<div class="example-panel u-mt-m">
+						<a href="examples/primary-link-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<div class="u-mb-m u-mt-s">
+							<a href="" class="primary-link u-mr-xl">Primary link inline</a>
+							<a href="" class="primary-link-standalone u-mr-l">Primary link standalone</a>
+						</div>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button1'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button1">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"primary-link"</span>&gt;</span>Primary link inline<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"primary-link-standalone"</span>&gt;</span>Primary link standalone<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code>
+					</div>
+				</section>
+
+				<div class="seperator u-mt-xl"></div>
+
+				<section>
+					<div class="ds-para">
+						<a id="section2"></a>
+						<h2 class="u-mt-l u-fs-xl">Secondary link</h2>
+						<p class="u-fs-body">A secondary link is the same color as paragraph text. Its appearance is ideal for when the primary variant is too overwhelming. Secondary links are ideal for footers and breadcrumbs for example.</p>
+						<h3 class="u-fs-m u-mt-m">White background</h3>
+					</div>
+					<div class="example-panel u-mt-m">
+						<a href="examples/secondary-link-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<div class="u-mb-m u-mt-s">
+							<a href="" class="secondary-link u-mr-xl">Secondary link inline</a>
+							<a href="" class="secondary-link-standalone">Secondary link standalone</a>
+						</div>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button2'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button2">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"secondary-link"</span>&gt;</span>Secondary link inline<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"secondary-link-standalone"</span>&gt;</span>Secondary link standalone<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code>
+					</div>
+
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m">Background colour</h3>
+					</div>
+					<div class="example-panel-dark u-mt-m">
+						<a href="examples/secondary-link-white-example.html" target="_blank" class="example-link white-link-standalone u-fw-400">Open in new window</a>
+						<div class="u-mb-m u-mt-s">
+							<a href="" class="white-link u-mr-xl">White link inline</a>
+							<a href="" class="white-link-standalone u-mr-l">White link standalone</a>
+						</div>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button3'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button3">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"white-link"</span>&gt;</span>White link inline<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"white-link-standalone"</span>&gt;</span>White link standalone<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code>
+					</div>
+				</section>
+
+				<div class="seperator u-mt-xl"></div>
+
+          <section>
+            <div class="ds-para">
+              <a id="section4"></a>
+              <h2 class="u-mt-l u-fs-xl">Usage guidance</h2>
+              <h3 class="u-mt-m u-fs-m">When to use the inline variation</h3>
+              <p class="u-fs-body">Browsers underline links by default and they're more accessible. It's recommended to use the underlined inline variation within paragraphs of text. They help guide users to important information when skimming which they may not otherwise see.</p> 
+            </div>
+            <div class="grid u-mt-m">
+				<div class="grid__col col-6@m">
+					<img src="../img/do-link-inline.svg" alt="Inline link example image">
+				</div>
+				<div class="grid__col col-6@m">
+					<img src="../img/dont-link-inline.svg" alt="Inline link example image">
+				</div>
+			</div>
+			<div class="ds-para">
+              <h3 class="u-mt-l u-fs-m">When to use the standalone variation</h3>
+              <p class="u-fs-body">Underline links can impede readability on a more general level. An underline can disrupt the natural flow of text, but it also cuts up the low-hanging letters and makes them harder to read.</p>
+          	  <p class="u-fs-body">The standalone variation should be used to display a list of search results or a table of contents for example.</p> 
+            </div>
+            <div class="grid u-mt-m">
+				<div class="grid__col col-6@m">
+					<img src="../img/do-link-no-underline.svg" alt="Link example image">
+				</div>
+			</div>
+          </section>
+
+          <div class="seperator u-mt-l"></div>
+
+					<section>
+						<div class="ds-para inline-code">
+							<a id="section9"></a>
+								<h2 class="u-mt-l u-fs-xl">Accessibility</h2>
+								<h3 class="u-mt-m u-fs-m">Avoid empty links</h3>
+								<p class="u-fs-body">Links should never be empty. An empty link can be navigated to, but it does not present any content. This can be very confusing for keyboard and screen reader users.</p>
+              					<h3 class="u-mt-l u-fs-m">Avoid uninformative link phrases</h3>
+              					<p class="u-fs-body">Links are more useful when they're descriptive and make sense out of context. Avoid link phrases such are 'read more' or 'click here' as it's a serious problem for accessibility.</p>
+              					<p class="u-fs-body">Most screen-reader users will hear a list of links read to them, with no visual context to help them make sense of different generic 'read more' or 'click here' links.</p>
+              			</div>
+			            <div class="grid u-mt-m">
+							<div class="grid__col col-6@m">
+								<img src="../img/do-links.svg" alt="Link text example image">
+							</div>
+							<div class="grid__col col-6@m">
+								<img src="../img/dont-links.svg" alt="Link text example image">
+							</div>
+						</div>
+
+					</section>
+
+					<div class="seperator u-mt-l"></div>
+
+					<section>
+						<div class="u-mb-xl">
+							<a id="section10"></a>
+							<h2 class="u-mt-l u-fs-xl">Related research</h2>
+							<p class="u-fs-body u-dark u-fw-600">Hyperlink Usability Guidelines<br>
+							<a href="https://usabilitygeek.com/hyperlink-usability-guidelines-usable-links/">https://usabilitygeek.com/hyperlink-usability-guidelines-usable-links/</a></p>
+							<p class="u-fs-body u-dark u-fw-600">WebAIM – Link Text<br>
+							<a href="https://webaim.org/techniques/hypertext/link_text">https://webaim.org/techniques/hypertext/link_text</a></p>
+							<p class="u-fs-body u-dark u-fw-600">“Learn More” Links: You Can Do Better<br>
+							<a href="https://webaim.org/techniques/hypertext/link_text">https://www.nngroup.com/articles/learn-more-links/</a></p>
+							
+						</div>
+					</section>
+
+					</div>
+
+				</section>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="../js/show-hide.js"></script>
+<script type="text/javascript" src="../js/focus.js"></script>
+
+</body>
+</html>

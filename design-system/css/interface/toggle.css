@@ -1,0 +1,39 @@
+.showHide {
+  display:none;
+  background-color: #000000;
+}
+
+.toggle {
+  overflow: hidden;
+  background-color: #F4F5F6;
+
+}
+
+.toggle button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.65rem 1rem;
+  transition: 0.3s;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  border-bottom: 4px solid #F4F5F6;
+  background-color: #F4F5F6;
+}
+
+.toggle button:hover {
+  border-bottom: 4px solid #EE020A;
+}
+
+.toggle button:focus {
+  outline: none;
+}
+
+.toggle button.active {
+  border-bottom: 4px solid #EE020A;
+}
+
+
+

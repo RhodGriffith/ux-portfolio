@@ -1,0 +1,17 @@
+.header {
+  background-color: #FFFFFF;
+  border-bottom: solid 1px #E3E4E5;
+  padding: 1rem 0;
+  max-height: 72px;
+}
+
+.lnrs--product-logo {
+  height: 40px;
+  margin-top: 3px;
+}
+
+@media only screen and (max-width:500px) {
+
+.lnrs--product-logo {
+  height: 32px;
+}
