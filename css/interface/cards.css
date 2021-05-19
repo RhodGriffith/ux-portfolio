@@ -19,7 +19,7 @@ a .card:hover {
 }
 
 .card_image {
-  background-color: #25baaf;
+  background-color: #EE020A;
   min-height: 17rem;
   padding: 2rem 2rem 2rem 2.5rem;
 }
@@ -60,7 +60,7 @@ a .card:hover {
 
 .type-image {
   width: 20rem;
-  padding-top: 1.8rem;
+  padding-top: 6.25rem;
 }
 
 .colour-image {
