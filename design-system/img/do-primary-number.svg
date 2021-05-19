@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#00916A" fill-rule="nonzero" x="0" y="0" width="6" height="400"></rect>
+        <rect id="Rectangle" fill="#F5F5F5" fill-rule="nonzero" x="6" y="0" width="495" height="400"></rect>
+        <path d="M33.5,12 C25.0095541,12 18,18.910828 18,27.5 C18,36.089172 24.910828,43 33.5,43 C42.089172,43 49,36.089172 49,27.5 C49,18.910828 41.9904459,12 33.5,12 Z M30.4394904,35.2006369 L22.7388535,27.5 L24.910828,25.3280255 L30.4394904,30.8566879 L42.089172,19.1082803 L44.2611465,21.2802548 L30.4394904,35.2006369 Z" id="Shape" fill="#00916A" fill-rule="nonzero"></path>
+        <rect id="Rectangle" stroke="#E3E4E5" fill="#FFFFFF" x="103.5" y="48.5" width="301" height="303"></rect>
+        <rect id="Rectangle" fill="#222222" x="103" y="321" width="302" height="31"></rect>
+        <rect id="Rectangle" stroke="#E3E4E5" fill="#FFFFFF" x="103.5" y="82.5" width="301" height="37"></rect>
+        <rect id="Rectangle" fill="#4B4B4B" x="153" y="63" width="29" height="6"></rect>
+        <rect id="Rectangle" fill="#4B4B4B" x="236" y="63" width="29" height="6"></rect>
+        <rect id="Rectangle" fill="#4B4B4B" x="132" y="98" width="110" height="6"></rect>
+        <rect id="Rectangle" fill="#4B4B4B" x="132" y="133" width="40" height="4"></rect>
+        <rect id="Rectangle" fill="#4B4B4B" x="269" y="63" width="29" height="6"></rect>
+        <rect id="Rectangle" fill="#4B4B4B" x="302" y="63" width="29" height="6"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" x="132" y="331" width="29" height="4"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" x="165" y="331" width="29" height="4"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" x="198" y="331" width="29" height="4"></rect>
+        <circle id="Oval" fill="#EE020A" cx="140" cy="66" r="9"></circle>
+        <rect id="Rectangle" fill="#E3E4E5" x="336" y="59" width="31" height="14" rx="1"></rect>
+        <rect id="Rectangle" fill="#E3E4E5" x="187" y="231" width="42" height="12" rx="1"></rect>
+        <rect id="Rectangle" fill="#E3E4E5" x="316" y="94" width="51" height="14" rx="1"></rect>
+        <rect id="Rectangle" fill="#EE020A" x="132" y="286" width="51" height="14" rx="1"></rect>
+        <rect id="Rectangle" stroke="#6E7272" x="132.5" y="141.5" width="96" height="11" rx="1"></rect>
+        <rect id="Rectangle" fill="#4B4B4B" x="132" y="163" width="40" height="4"></rect>
+        <rect id="Rectangle" stroke="#6E7272" x="132.5" y="171.5" width="96" height="11" rx="1"></rect>
+        <rect id="Rectangle" fill="#4B4B4B" x="132" y="193" width="40" height="4"></rect>
+        <rect id="Rectangle" stroke="#6E7272" x="132.5" y="201.5" width="96" height="11" rx="1"></rect>
+        <rect id="Rectangle" fill="#4B4B4B" x="132" y="253" width="40" height="4"></rect>
+        <rect id="Rectangle" stroke="#6E7272" x="132.5" y="261.5" width="96" height="11" rx="1"></rect>
+        <rect id="Rectangle" fill="#4B4B4B" x="132" y="223" width="40" height="4"></rect>
+        <rect id="Rectangle" stroke="#6E7272" x="132.5" y="231.5" width="48" height="11" rx="1"></rect>
+    </g>
+</svg>

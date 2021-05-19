@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#00916A" fill-rule="nonzero" x="0" y="0" width="6" height="210"></rect>
+        <rect id="Rectangle" fill="#F5F5F5" fill-rule="nonzero" x="6" y="0" width="495" height="210"></rect>
+        <path d="M33.5,12 C25.0095541,12 18,18.910828 18,27.5 C18,36.089172 24.910828,43 33.5,43 C42.089172,43 49,36.089172 49,27.5 C49,18.910828 41.9904459,12 33.5,12 Z M30.4394904,35.2006369 L22.7388535,27.5 L24.910828,25.3280255 L30.4394904,30.8566879 L42.089172,19.1082803 L44.2611465,21.2802548 L30.4394904,35.2006369 Z" id="Shape" fill="#00916A" fill-rule="nonzero"></path>
+        <rect id="Rectangle" fill-opacity="0.25" fill="#5151D3" x="72" y="50" width="384" height="56"></rect>
+        <text id="First-item" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="18" font-weight="500" fill="#000000">
+            <tspan x="95" y="83.5">First item</tspan>
+        </text>
+        <text id="Second-item" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="18" font-weight="500" fill="#000000">
+            <tspan x="95" y="139.5">Second item</tspan>
+        </text>
+        <line x1="72" y1="49.5" x2="456" y2="49.5" id="Line-5" stroke="#4B4B4B" stroke-linecap="square"></line>
+        <line x1="72" y1="106" x2="456" y2="106" id="Line-5" stroke="#4B4B4B" stroke-linecap="square"></line>
+        <line x1="72" y1="162" x2="456" y2="162" id="Line-5" stroke="#4B4B4B" stroke-linecap="square"></line>
+        <g id="angle-down-red" transform="translate(420.000000, 73.500000)" fill="#EE020A" fill-rule="nonzero">
+            <g id="angle-right" transform="translate(7.500000, 4.859155) rotate(90.000000) translate(-7.500000, -4.859155) translate(2.640845, -2.640845)">
+                <path d="M9.3585455,8.29192547 L3.00426598,14.6273292 C2.56507313,15.0652174 1.85488895,15.0652174 1.42036836,14.6273292 L0.36443662,13.5745342 C-0.0747562297,13.136646 -0.0747562297,12.4285714 0.36443662,11.9953416 L4.86849946,7.50465839 L0.36443662,3.01397516 C-0.0747562297,2.57608696 -0.0747562297,1.86801242 0.36443662,1.43478261 L1.4156961,0.372670807 C1.85488895,-0.0652173913 2.56507313,-0.0652173913 2.99959372,0.372670807 L9.35387324,6.70807453 C9.79773835,7.14596273 9.79773835,7.85403727 9.3585455,8.29192547 L9.3585455,8.29192547 Z" id="Path"></path>
+            </g>
+        </g>
+        <g id="angle-down-red" transform="translate(420.000000, 128.500000)" fill="#EE020A" fill-rule="nonzero">
+            <g id="angle-right" transform="translate(7.500000, 4.859155) rotate(90.000000) translate(-7.500000, -4.859155) translate(2.640845, -2.640845)">
+                <path d="M9.3585455,8.29192547 L3.00426598,14.6273292 C2.56507313,15.0652174 1.85488895,15.0652174 1.42036836,14.6273292 L0.36443662,13.5745342 C-0.0747562297,13.136646 -0.0747562297,12.4285714 0.36443662,11.9953416 L4.86849946,7.50465839 L0.36443662,3.01397516 C-0.0747562297,2.57608696 -0.0747562297,1.86801242 0.36443662,1.43478261 L1.4156961,0.372670807 C1.85488895,-0.0652173913 2.56507313,-0.0652173913 2.99959372,0.372670807 L9.35387324,6.70807453 C9.79773835,7.14596273 9.79773835,7.85403727 9.3585455,8.29192547 L9.3585455,8.29192547 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
