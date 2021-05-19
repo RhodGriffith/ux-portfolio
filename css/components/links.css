@@ -1,0 +1,92 @@
+a {
+  color: #005fC6;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #004999;
+}
+
+a:focus {
+  outline: none;
+}
+
+a.primary-link {
+  color: #005fC6;
+  text-decoration: underline;
+}
+
+a.primary-link:hover {
+  color: #004999;
+}
+
+a.primary-link:focus {
+  outline: none;
+}
+
+a.secondary-link {
+  color: #4b4b4b;
+  text-decoration: underline;
+}
+
+a.secondary-link:hover {
+  color: #000000;
+}
+
+a.secondary-link:focus {
+  outline: none;
+}
+
+a.white-link {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+a.white-link:hover {
+  color: #FFFFFF;
+}
+
+a.primary-link-standalone {
+  color: #005fC6;
+  text-decoration: none;
+}
+
+a.primary-link-standalone:hover {
+  color: #004999;
+  text-decoration: underline;
+}
+
+a.primary-link-standalone:focus {
+  outline: none;
+}
+
+a.secondary-link-standalone {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+a.secondary-link-standalone:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+a.white-link-standalone {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a.white-link-standalone:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+a.white-link-standalone:focus {
+  outline: none;
+}
+
+body.user-is-tabbing a:focus {
+  box-shadow: 0 0 0 3px #93CFE2 !important;
+}
+
