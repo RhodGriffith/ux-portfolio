@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en-gb" dir="ltr" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en-gb" dir="ltr" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en-gb" dir="ltr" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html dir="ltr" class="has-js" lang="en-gb">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<title>Business Register</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" href="https://cdn.ons.gov.uk/sdc/v1.6.0/css/responsive.css">
+	<link rel="stylesheet" href="css/registers-main.css" media="all">
+	<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <script nonce="5lO8T0S8jHjwtrtd">document.documentElement.className = document.documentElement.className.replace('no-js','has-js')</script>
+  <!--<![endif]-->
+</head>
+
+<body>
+
+	<!–– Start of skip to content ––>
+	<div class="skip">
+	    <a class="skip__link" href="#main">Skip to content</a>
+	</div>
+    <!–– End of skip to content ––>
+
+
+	<!–– Start of internal header ––>
+	<header class="header header--internal">
+    <div class="header__top" role="banner">
+        <div class="container">
+            <div class="grid grid--gutterless">
+                <div class="grid__col col-6@s">
+                    <div class="logo">
+                        <img src="https://sdc-global-design-patterns.netlify.com/assets/img/ons-logo-black-en.svg" alt="Office for National Statistics logo" class="logo__img header__logo--print">
+                        <a href="home.html">
+                            <img src="https://sdc-global-design-patterns.netlify.com/assets/img/ons-logo-white.svg" alt="Office for National Statistics logo" class="logo__img header__logo print__hidden">
+                        </a>
+                    </div>
+                </div>
+                <div class="grid__col col-6@s">
+                    <nav class="nav nav--horizontal nav--light u-d-no--@xs@s u-fr" aria-label="Site services menu">
+                        <ul class="nav__list" role="menubar" aria-label="Site services menu">
+                            <li class="nav__item" role="menuitem"><a href="#1" class="nav__link">My account</a></li>
+                            <li class="nav__item" role="menuitem"><a href="#1" class="nav__link">Help</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__main header__main--border">
+        <div class="container">
+            <div class="grid grid--gutterless grid--align-mid u-cf">
+                <div class="grid__col col-10@xs col-6@s col-8@m">
+                    <h1 class="header__title header__title--nav-adj">Business Register</h1>
+                </div>
+                <button class="btn btn--mobile js-nav-btn u-fr u-d-no--@s" type="button" id="menu-btn" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle main navigation" aria-haspopup="true"><span class="btn--mobile__label"></span></button>
+                <div class="u-fr u-d-no--@xs@s">
+                    <button class="btn btn--ghost print__hidden">Sign out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__nav">
+        <div class="container">
+            <nav class="nav nav--horizontal nav--light nav--main nav--h-m js-main-nav" aria-label="Main menu" id="main-nav">
+                <ul class="nav__list" aria-label="Navigation menu" role="menubar">
+                    <li class="nav__item" role="menuitem" aria-current="page"><a href="home.html" class="nav__link">Home</a></li>
+                    <li class="nav__item nav__item--active" role="menuitem"><a href="search.html" class="nav__link">Search</a></li>
+					<li class="nav__item " role="menuitem"><a href="record-management.html" class="nav__link">Record management</a></li>
+                    <li class="nav__item nav__item--secondary u-d-no--@s" role="menuitem"><a href="#1" class="nav__link print__hidden">My account</a></li>
+                    <li class="nav__item  u-d-no--@s" role="menuitem"><a href="#1" class="nav__link print__hidden">Help</a></li>
+                    <li class="nav__item u-d-no--@s" role="menuitem"><button class="btn btn--ghost print__hidden">Save and sign out</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+	</header>
+	<!–– End of internal header ––>
+
+
+    <!–– Start of global search ––>
+    <div class="global__search">
+        <div class="container">
+            <div class="grid">
+                <form class="form" action="search-results.html">
+                <div class="grid__col col-3@m">
+                    <div class="field">
+                        <label class="label venus" for="text-input">Reference number</label>
+                        <input class="input input--text input--fullwidth" type="text" id="text-input" />
+                    </div>
+                </div>
+                <div class="grid__col col-5@m">
+                    <div class="field">
+                        <label class="label venus" for="text-input">Business name</label>
+                        <input class="input input--text input--fullwidth" type="text" id="text-input" value="Bolts and Ratchets"/>
+                    </div>
+                </div>
+                <div class="grid__col col-2@m">
+                    <div class="field">
+                        <label class="label venus" for="text-input">Postcode</label>
+                        <input class="input input--text input--fullwidth" type="text" id="text-input" />
+                    </div>
+                </div>
+                <div class="grid__col col-2@m">
+                    <div class="field">
+                        <button class="btn btn--custom">Search</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!–– End of global search ––>
+
+
+    <!–– Start of breadcrumb ––>
+    <div class="container">
+        <div class="grid">
+            <div class="grid__col col-12@m">
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                    <ol class="breadcrumb__items">
+                        <li class="breadcrumb__item icon--breadcrumb"><a href="home.html" class="breadcrumb__link pluto">Home</a></li>
+                        <li class="breadcrumb__item icon--breadcrumb"><a href="search.html" class="breadcrumb__link pluto">Search</a></li>
+                        <li class="breadcrumb__item icon--breadcrumb"><a href="enterprise-group.html" class="breadcrumb__link pluto">Enterprise Group 220015767</a></li>
+                        <li class="breadcrumb__item icon--breadcrumb"><a href="enterprise.html" class="breadcrumb__link pluto">Enterprise 9900156115</a></li>
+                        <li class="breadcrumb__item icon--breadcrumb"><a href="reporting-unit.html" class="breadcrumb__link pluto">Reporting Unit 499986239</a></li>
+                        <li class="breadcrumb__item breadcrumb__item--current pluto" aria-current="page">Local Unit 50444532C</li>
+
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+	<!–– End of breadcrumb ––>
+
+
+    <!–– Start of business details ––>
+    <div class="main">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__col col-10@s">
+                    <main role="main" id="main" class="page__main">
+                    <h2 class="jupiter text__uppercase text--margin-xs">Bolts & Ratchets Swansea</h2>
+                    <p class="mars u-mb-xs">Local Unit 50444532C</p>
+                </div>
+            </div>
+        </div>
+    <!–– End of business details ––>
+
+
+    <!–– Start of tabs ––>
+    <div class="container">
+        <div class="landing-content">
+            <div class="grid">
+                <div class="grid__col col-12@s">
+                    <div id="tabs-2" class="tabs"> 
+                        <input id="tab-1-1" name="tabs-group-1" type="radio" checked />
+                        <input id="tab-1-2" name="tabs-group-1" type="radio" />
+                        
+                        <label for="tab-1-1">Summary</label>
+                        <label for="tab-1-2">History</label>
+    
+                            <div id="tab">
+                                <div class="u-mb-l">
+                                    <dl class="metadata metadata__list grid grid--gutterless">
+                                        <dt class="metadata__term--large grid__col col-3@m venus">Birth date:</dt>
+                                        <dd class="metadata__value--large grid__col col-9@m">11/03/2015</dd>
+                                        <dt class="metadata__term--large grid__col col-3@m venus">Register status:</dt>
+                                        <dd class="metadata__value--large grid__col col-9@m"><span class="status status--success">Live – 1</span></dd>
+                                        <dt class="metadata__term--large grid__col col-3@m venus">Address:</dt>
+                                        <dd class="metadata__value--large grid__col col-9@m">Unit 44B<br>Mumbles Industrial Estate<br> Swansea<br>SA14 1NB</dd>
+                                        <dt class="metadata__term--large grid__col col-3@m venus">Legal status:</dt>
+                                        <dd class="metadata__value--large grid__col col-9@m">Company</dd>
+                                        <dt class="metadata__term--large grid__col col-3@m venus">Employees:</dt>
+                                        <dd class="metadata__value--large grid__col col-9@m">12</dd>
+                                        <dt class="metadata__term--large grid__col col-3@m venus">Full-time employees:</dt>
+                                        <dd class="metadata__value--large grid__col col-9@m">11</dd>
+                                        <dt class="metadata__term--large grid__col col-3@m venus">Part-time employees:</dt>
+                                        <dd class="metadata__value--large grid__col col-9@m">1</dd>
+                                        <dt class="metadata__term--large grid__col col-3@m venus">Employment:</dt>
+                                        <dd class="metadata__value--large grid__col col-9@m">14</dd>
+                                        <dt class="metadata__term--large grid__col col-3@m venus">Industry (SIC):</dt>
+                                        <dd class="metadata__value--large grid__col col-9@m">45200 – Maintenance and repair of motor vehicles</dd>
+                                        <dt class="metadata__term--large grid__col col-3@m venus">IDBR reference:</dt>
+                                        <dd class="metadata__value--large grid__col col-9@m">50773625C</dd>
+                                        <dt class="metadata__term--large grid__col col-3@m venus">Last updated:</dt>
+                                        <dd class="metadata__value--large grid__col col-9@m">01/10/18</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <div id="tab">
+                                <h2 class="collator-title neptune">History</h2>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!–– End of tabs ––>
+    </main>
+
+
+	<!–– Start of internal footer ––>
+	<footer class="footer" role="contentinfo">
+	    <div class="container">
+	        <div class="grid">
+	            <div class="grid__col col-12@m">
+	                <ul class="list list--bare">
+						<li><a href="/contact-us" class="footer__link footer__link--inline" target="_blank">Contact us</a></li>
+						<li><a href="/contact-us" class="footer__link footer__link--inline" target="_blank">Accessibility</a></li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+	<!–– End of internal footer ––>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.ons.gov.uk/sdc/v1.6.0/scripts/bundle.min.js"></script>
+<script src="js/sortable-table.js"></script>
+
+</body>
+</html>
