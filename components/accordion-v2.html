@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<title>Accordion – Neptune</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link rel="stylesheet" href="../css/master.css" media="all">
+</head>
+
+<body>
+
+<header>
+	<div class="navbar">
+		<div class="ds-hero" id="navbar">
+			<div class="container container--full-width">
+				<div class="grid">
+	    			<div class="grid__col col-3@m">
+						<a href="../index.html"><img src="../img/lexis-icon.svg" class="lexis-icon" alt="Neptune"></a>
+					</div>
+					<div class="grid__col col-9@m">
+						<div class="topnav">
+							<div class="topnav-right">
+								<a href="../index.html">Home</a>
+								<a href="../styles.html">Styles</a>
+								<a href="../components.html" class="active">Components</a>
+								<a href="../patterns.html">Patterns</a>
+								<a href="">Accessibility</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section>
+	<div class="sidenav">
+	  <a href="" class="active">Accordion</a>
+	  <a href="buttons.html">Buttons</a>
+	  <a href="checkbox.html">Checkbox</a>
+	  <a href="footer.html">Footer</a>
+	  <a href="header.html">Header</a>
+	  <a href="links.html">Links</a>
+	  <a href="radio-button.html">Radio button</a>
+	  <a href="text-input.html">Text input</a>
+	</div>
+</section>
+
+<main>
+	<div class="main">
+		<div class="sidenav-container">
+			<div class="ds-article">
+				<nav aria-label="Breadcrumb" class="u-mt-l">
+					<ol class="breadcrumb">
+					  <li><a href="../index.html">Home</a></li>
+					  <li><a href="../components.html">Components</a></li>
+					  <li class="bc-active">Accordion</li>
+					</ol>
+				</nav>
+				<section>
+					<div class="ds-para">
+						<h1 class="u-mt-l u-fs-xxxl">Accordion</h1>
+						<p class="u-fs-s">An accordion menu is a vertically stacked list of headers that can be clicked to reveal or hide content associated with them.</p>
+					</div>
+					<div class="seperator u-mt-l"></div>
+				</section>
+				<section>
+					<p class="u-fs-m u-dark u-fw-600 u-mt-l">Contents</p>
+					<ol class="list list--bare u-mt-s">
+						<li class="list__item"><a href="#section1">Standard accordion</a></li>
+						<li class="list__item"><a href="#section2">Open all panels</a></li>
+						<li class="list__item"><a href="#section3">Usage guidance</a></li>
+						<li class="list__item"><a href="#section4">Accessibility</a></li>
+						<li class="list__item"><a href="#section5">Related research</a></li>
+					</ol>
+				<div class="seperator u-mt-l"></div>
+				</section>
+
+				<section>
+					<div class="ds-para inline-code">
+						<a id="section1"></a>
+						<h2 class="u-mt-l u-fs-xl">Standard accordion</h2>
+						<p class="u-fs-body">This accordion can have multiple panels open at the same time and renderes with all panels closed.</p>
+					</div>
+					<div class="example-panel u-mt-m">
+					<a href="examples/accordion-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+					    <div class="neptune-accordion u-mb-l u-mt-m">
+					        <div id="first-item">
+					          <h3 class="u-fs-s">First item</h3>
+					          <p class="u-fs-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					        </div>
+					        <div id="second-item">
+					          <h3 class="u-fs-s">Second item</h3>
+					          <p class="u-fs-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					        </div>
+					        <div id="third-item">
+					          <h3 class="u-fs-s">Third item</h3>
+					          <p class="u-fs-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					        </div>
+					    </div>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button1'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button1">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"neptune-accordion"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"first-item"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-s"</span>&gt;</span>First item</span>&lt;/<span class="hljs-name">h3</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-body"</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"second-item"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-s"</span>&gt;</span>Second item</span>&lt;/<span class="hljs-name">h3</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-body"</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"third-item"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-s"</span>&gt;</span>Third item</span>&lt;/<span class="hljs-name">h3</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-body"</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code>
+					</div>
+					</section>
+
+					<div class="seperator u-mt-xl"></div>
+
+					<div class="ds-para inline-code">
+						<a id="section2"></a>
+						<h2 class="u-fs-xl u-mt-l">Open all panels</h2>
+						<p class="u-fs-body">Option to open or close all accordion panels.</p>
+					</div>
+					<div class="example-panel u-mt-m">
+					<a href="examples/accordion-open-all-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<div class="neptune-accordion__controls">
+					        <button type="button" class="btn btn--filled u-mb-xs u-mt-xs btn--small" id="openAll">Open all</button>
+					        <button type="button" class="btn btn--filled u-mb-xs u-mt-xs btn--small" id="closeAll">Close all</button>
+					    </div>
+					    <div class="neptune-accordion-two u-mb-m">
+					        <div id="fourth-item">
+					          <h3 class="u-fs-s">First item</h3>
+					          <p class="u-fs-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					        </div>
+					        <div id="fifth-item">
+					          <h3 class="u-fs-s">Second item</h3>
+					          <p class="u-fs-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					        </div>
+					        <div id="sixth-item">
+					          <h3 class="u-fs-s">Third item</h3>
+					          <p class="u-fs-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					        </div>
+					    </div>
+						
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button2'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button2">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"neptune-accordion__controls"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn--filled btn--small u-mb-xs u-mt-xs" <span class="hljs-attr">id</span>=<span class="hljs-string">"openAll"</span></span>&gt;</span>Open all<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn--filled btn--small u-mb-xs u-mt-xs" <span class="hljs-attr">id</span>=<span class="hljs-string">"closeAll"</span></span>&gt;</span>Close all<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"neptune-accordion"</span>&gt;</span> 
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"first-item"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-s"</span>&gt;</span>First item</span>&lt;/<span class="hljs-name">h3</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-body"</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"second-item"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-s"</span>&gt;</span>Second item</span>&lt;/<span class="hljs-name">h3</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-body"</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"third-item"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-s"</span>&gt;</span>Third item</span>&lt;/<span class="hljs-name">h3</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-body"</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code>
+					</div>
+
+				</section>
+
+				<div class="seperator u-mt-xl"></div>
+
+				<section>
+					<div class="ds-para">
+						<a id="section3"></a>
+						<h2 class="u-mt-l u-fs-xl">Usage guidance</h2>
+						<h3 class="u-fs-m u-mt-m">When to use this component</h3>
+						<p class="u-fs-body">Only use this component when you have identified a need to quickly scan large sections of content. By hiding most of the content, users can spend their time more efficiently focused on the topics that are relevant to them.</p>
+						<p class="u-fs-body">Accordions are not a suitable replacement for well formatted plain text. If a user requires all of the information on the page to continue with their tasks, it should be visible not hidden inside an accordion.</p>
+						
+						<h3 class="u-fs-m u-mt-l">Ensure both the icon and title area triggering expansion</h3>
+						<p class="u-fs-body">Don't force users to desperately try and hit a small icon, some people have tremors which don't allow for fine muscle control.</p>
+						<p class="u-fs-body">Users are used to collapsing and expanding accordions by tapping on the content area within the bars. The accordion hover state also indicates the whole bar is clickable.</p>
+					</div>
+					<div class="grid u-mt-m">
+						<div class="grid__col col-6@m">
+							<img src="../img/do-accordion.svg" alt="Accordion example image">
+						</div>
+						<div class="grid__col col-6@m">
+							<img src="../img/dont-accordion.svg" alt="Accordion example image">
+						</div>
+					</div>
+					<div class="ds-para">
+						<h3 class="u-fs-m u-mt-l">Arrows must face the way content expands</h3>
+						<p class="u-fs-body">Arrows should face down to indicate content will expand downwards and face upwards to indicate when the content will collapse upwards.</p>
+						<p class="u-fs-body">Arrows pointing to the right should only be used to indicate and onward journey to another page.</p> 
+					</div>
+					<div class="grid u-mt-m">
+						<div class="grid__col col-6@m">
+							<img src="../img/do-accordion-arrow.svg" alt="Accordion arrow example image">
+						</div>
+						<div class="grid__col col-6@m">
+							<img src="../img/dont-accordion-arrow.svg" alt="Accordion arrow example image">
+						</div>
+					</div>
+					<div class="ds-para">
+						<h3 class="u-fs-m u-mt-l">Don't automatically collapse accordion items</h3>
+						<p class="u-fs-body">It is not recommended that expanding one accordion item results in collapsing another. If a user has opened an item, assume they want it to remain open. This allows a user to compare open items if needed.</p>
+						<p class="u-fs-body">Another consideration is content on screen will start to jump around when you start closing accordions programatically.</p>
+						<p class="u-fs-body">For example, if a user selects item two, they would expect the accordion to open from that point on the screen. As item 1 would close at the same time, the newly opened accordion won't be in the same place.</p>
+					</div>
+				</section>
+
+				<div class="seperator u-mt-l"></div>
+
+				<section>
+					<div class="u-mb-xl">
+						<a id="section4"></a>
+						<div class="ds-para inline-code">
+							<h2 class="u-mt-l u-fs-xl">Accessibility</h2>
+							<h3 class="u-fs-m u-mt-m">Considerations for assistive technologies</h3>
+							<p class="u-fs-body">Keyboard accessibility is one of the most important aspects of web accessibility. Many users with motor disabilities rely on a keyboard. Blind users also typically use a keyboard for navigation.</p>
+							<p class="u-fs-body">Assistive technologies users must be:</p>
+							<ul class="list">
+								<li class="list__item">able to use the tab key on a keyboard to access each accordion item</li>
+								<li class="list__item">able to use the return key or space bar to expand an collapse the accordion item</li>
+								<li class="list__item">provided with a visual indicator of the element that currently has keyboard focus</li>
+							</ul>
+							<p class="u-fs-body">The toggle button's state must communicated to users of assistive technologies with <code>aria-expanded</code></p>
+						</div>
+					</div>
+				</section>
+
+				<div class="seperator u-mt-l"></div>
+
+				<section>
+					<div class="u-mb-xl">
+						<a id="section5"></a>
+						<h2 class="u-mt-l u-fs-xl">Related research</h2>
+						<p class="u-fs-body u-dark u-fw-600">Accordions are not always the answer for complex content<br>
+						<a href="https://www.nngroup.com/articles/accordions-complex-content/">https://www.nngroup.com/articles/accordions-complex-content/</a></p>
+						<p class="u-fs-body u-dark u-fw-600">Designing the perfect accordion<br>
+						<a href="https://www.smashingmagazine.com/2017/06/designing-perfect-accordion-checklist/">https://www.smashingmagazine.com/2017/06/designing-perfect-accordion-checklist/</a></p>
+						<p class="u-fs-body u-dark u-fw-600">W3C aria-expanded (state)<br>
+						<a href="https://www.w3.org/TR/wai-aria-1.0/states_and_properties#aria-expanded">https://www.w3.org/TR/wai-aria-1.0/states_and_properties#aria-expanded</a></p>
+					</div>
+				</section>
+
+			</div>
+		</div>
+	</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    window.neptune && neptune.Accordion.init();
+
+    var accordionElem = document.querySelector('.neptune-accordion-two');
+    var accordion = new neptune.Accordion.constructor(accordionElem);
+
+    var openAllButton = document.getElementById('openAll');
+    openAllButton.addEventListener('click', function () {
+      accordion.openAll();
+    });
+
+    var closeAllButton = document.getElementById('closeAll');
+    closeAllButton.addEventListener('click', function () {
+      accordion.closeAll();
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    window.neptune && neptune.Accordion.init();
+
+    var accordionElem = document.querySelector('.neptune-accordion');
+    var accordion = new neptune.Accordion.constructor(accordionElem);
+  });
+</script>
+
+<script type="text/javascript" src="../js/show-hide.js"></script>
+<script type="text/javascript" src="../js/accordion.js"></script>
+<script type="text/javascript" src="../js/focus.js"></script>
+
+</body>
+</html>
