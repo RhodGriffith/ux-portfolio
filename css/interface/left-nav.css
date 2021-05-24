@@ -1,0 +1,34 @@
+.sidenav {
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 73px;
+  left: 0;
+  background: #ffffff;
+  overflow-x: hidden;
+  border-right: 1px solid #EAEAEA;
+  height:100%;
+  padding-top: 1.5rem;
+}
+
+.sidenav a {
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  color: #4B4B4B;
+  padding: 1.125rem 1.5rem;
+  text-decoration: none;
+  border-left: 4px solid #ffffff;
+}
+
+.sidenav a:hover {
+  background-color: #F4F5F6;
+  color: #000000;
+  border-left: 4px solid #EE020A;
+}
+
+.sidenav a.active {
+  color: #000000;
+  border-left: 4px solid #EE020A;
+	background-color: #F4F5F6;
+}
