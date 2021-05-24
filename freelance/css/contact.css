@@ -1,0 +1,847 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ===== body ===== */
+
+body {
+  background-image: url(../images/bg.png);
+}
+
+div#outerDiv {
+    width: 990px;
+    margin: 15px auto;
+	background: #fff url(../images/cwcw_creative_logo.gif) no-repeat;
+}
+
+/* ===== header ===== */
+
+div#header {
+    height: 130px;
+    position: relative;
+	margin-bottom: 20px;
+}
+
+/* ===== language buttons ===== */
+
+#outerDiv div#langButtons {
+    position: absolute;
+    right: 0;
+    top: 0;
+	background: url(../images/black_bg.gif);
+}
+
+#langButtons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#langButtons li {
+    float: left;
+    margin: 0;
+    padding: 3px 0 0 0;
+}
+
+#langButtons li a:link, #langButtons li a:visited {
+    font-family: 'CartoGothicStdBold', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    display: block;
+    color: #808285;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 0 0 0 20px;
+    line-height: 30px;
+    border: none;
+}
+
+#langButtons li a:hover, langButtons li a:active {
+    color: #FFFFFF;
+}
+
+#langButtons li a.cym {
+	padding-right: 35px;
+}
+
+#langButtons li a.eng {
+	padding-left: 35px;
+}
+
+/* ===== main menu ===== */
+
+#header #mainMenu {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
+
+#mainMenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#mainMenu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#mainMenu li a:link, #mainMenu li a:visited {
+    font-family: 'CartoGothicStdBold', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    display: block;
+    color: #231F20;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 0 15px 9px 15px;
+    margin-right: 5px;
+    line-height: 35px;
+    border: none;
+}
+
+#mainMenu li a:hover, #mainMenu li a:active {
+    color: #fff;
+	background: url(../images/nav_rollover.gif) no-repeat center top;
+}
+
+#mainMenu li a.current {
+    background: url(../images/nav_rollover.gif) no-repeat center top;
+    color: #fff;
+}
+
+
+/* ===== main statement ===== */
+
+div#statement {
+    height: 72px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#statement p {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+	text-transform: uppercase;
+	color: #616367;
+}
+
+.bold {
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;	
+}
+
+
+
+/* ===== services ===== */
+
+div#services {
+    height: 15px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#services #textureSep {
+    position: absolute;
+    top: 0;
+	left: 285px;
+	height: 15px;
+	width: 670px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#services #textureSepGraphic {
+    position: absolute;
+    top: 0;
+	left: 190px;
+	height: 15px;
+	width: 765px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#services #textureSepWeb {
+    position: absolute;
+    top: 0;
+	left: 160px;
+	height: 15px;
+	width: 795px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#services #textureSepBrand {
+    position: absolute;
+    top: 0;
+	left: 260px;
+	height: 15px;
+	width: 695px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#services #textureSepWelsh {
+    position: absolute;
+    top: 0;
+	left: 273px;
+	height: 15px;
+	width: 682px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#services #textureSepContact {
+    position: absolute;
+    top: 0;
+	left: 263px;
+	height: 15px;
+	width: 692px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+
+#services #title {
+    position: absolute;
+	top: -21px;
+	width: 300px;
+	padding: 0;
+}
+
+#services #titleGraphic {
+    position: absolute;
+	top: -21px;
+	padding: 0;
+	width: 300px;
+}
+
+h1 {
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #e80e65;
+	font-size: 1.5em;
+	letter-spacing: -1px;
+	position: absolute;
+	top: 0;
+	line-height: 27px;
+}
+
+h3 {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #e80e65;
+	font-size: 1.05em;
+	text-transform: uppercase;
+	top: 0;
+	line-height: 27px;
+}
+
+
+
+
+/* ===== recent work ===== */
+
+div#portfolio {
+    height: 60px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#portfolio #portfolioTextureSep {
+    position: absolute;
+    top: 28px;
+	left: 168px;
+	height: 15px;
+	width: 787px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#portfolio #portfolioTextureSepGraphic {
+    position: absolute;
+    top: 28px;
+	left: 312px;
+	height: 15px;
+	width: 643px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#portfolio #portfolioTextureSepWeb {
+    position: absolute;
+    top: 28px;
+	left: 283px;
+	height: 15px;
+	width: 672px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#portfolio #portfolioTextureSepBrand {
+    position: absolute;
+    top: 28px;
+	left: 383px;
+	height: 15px;
+	width: 572px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#portfolio #portfolioTextureSepWelsh {
+    position: absolute;
+    top: 28px;
+	left: 254px;
+	height: 15px;
+	width: 701px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+
+#portfolio #portfolioTitle {
+    position: absolute;
+	top: 3px;
+	width: 123px;
+	padding: 0;
+}
+
+#portfolio #portfolioTitle h2{
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #000000;
+	font-size: 1.5em;
+	letter-spacing: -1px;
+	position: absolute;
+	top: 0;
+	line-height: 27px;
+}
+
+#portfolio #graphicTitle h2{
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #000000;
+	font-size: 1.5em;
+	letter-spacing: -1px;
+	position: absolute;
+	top: 2px;
+	line-height: 27px;
+}
+
+div#test {
+    width: 920px;
+}
+
+/* ===== portfolio links ===== */
+
+div#portfolioLinks {
+    height: 190px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#portfolioLinks #clwbCarco {
+    position: absolute;
+	top: 0;
+	left: 35px;
+	width: 290px;
+	height: 190px;
+}
+
+#clwbCarco a:link, #clwbCarco a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/clwb_carco_sml.jpg) no-repeat center bottom;
+}
+
+#clwbCarco a:hover, #clwbCarco a:active {
+    color: #fff;
+	background: url(../images/clwb_carco_sml.jpg) no-repeat center top;
+}
+
+#portfolioLinks #techneg {
+    position: absolute;
+	top: 0;
+	left: 350px;
+	width: 290px;
+	height: 190px;
+}
+
+#techneg a:link, #techneg a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/web_design.jpg) no-repeat center bottom;
+}
+
+#techneg a:hover, #techneg a:active {
+    color: #fff;
+	background: url(../images/web_design.jpg) no-repeat center top;
+}
+
+#portfolioLinks #loveNepal {
+    position: absolute;
+	top: 0;
+	left: 665px;
+	width: 290px;
+	height: 190px;
+}
+
+#loveNepal a:link, #loveNepal a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/branding_identity.jpg) no-repeat center bottom;
+}
+
+#loveNepal a:hover, #loveNepal a:active {
+    color: #fff;
+	background: url(../images/branding_identity.jpg) no-repeat center top;
+}
+
+#portfolioLinks #safeguarding {
+    position: absolute;
+	top: 0;
+	left: 350px;
+	width: 290px;
+	height: 190px;
+}
+
+#safeguarding a:link, #safeguarding a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/safeguarding_children.jpg) no-repeat center bottom;
+}
+
+#safeguarding a:hover, #techneg a:active {
+    color: #fff;
+	background: url(../images/safeguarding_children.jpg) no-repeat center top;
+}
+
+#portfolioLinks #morphyRichards {
+    position: absolute;
+	top: 0;
+	left: 665px;
+	width: 290px;
+	height: 190px;
+}
+
+#morphyRichards a:link, #morphyRichards a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/graphic_design.jpg) no-repeat center bottom;
+}
+
+#morphyRichards a:hover, #morphyRichards a:active {
+    color: #fff;
+	background: url(../images/graphic_design.jpg) no-repeat center top;
+}
+
+#portfolioLinks #barnsleyCivic {
+    position: absolute;
+	top: 0;
+	left: 35px;
+	width: 290px;
+	height: 190px;
+}
+
+#barnsleyCivic a:link, #barnsleyCivic a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/barnsley_civic.jpg) no-repeat center bottom;
+}
+
+#barnsleyCivic a:hover, #barnsleyCivic a:active {
+    color: #fff;
+	background: url(../images/barnsley_civic.jpg) no-repeat center top;
+}
+
+
+/* ===== footer ===== */
+
+div#footer {
+    height: 85px;
+    position: relative;
+}
+
+/* ===== contactDetails ===== */
+
+div#contactDetails {
+    position: absolute;
+	height: 50px;
+    bottom: 0;
+	background-image: url(../images/black_bg.gif);
+	width: 990px;
+}
+
+#contactDetails ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contactDetails li {
+    float: left;
+    margin: 0;
+    padding: 25px 0 0 0;
+}
+
+#contactDetails li a:link, #contactDetails li a:visited {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    display: block;
+    color: #808285;
+    text-decoration: none;
+    padding: 0 0 0 35px;
+    border: none;
+}
+
+#contactDetails li {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    display: block;
+    color: #808285;
+    text-decoration: none;
+    padding: 25px 15px 0 0;
+    border: none;
+}
+
+#contactDetails li a:hover, #contactDetails li a:active {
+    color: #FFFFFF;
+}
+
+#contactDetails .copyright {
+	padding-left: 480px;
+	font-size: 0.7em;
+}
+
+/* ===== footer ===== */
+
+div#divider {
+    height: 15px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#divider #texture {
+    position: absolute;
+	width: 920px;
+	height: 15px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+/* ===== mainContent Nav===== */
+
+div#mainContent {
+    position: relative;
+	padding: 35px;
+	height: 300px;
+}
+
+div#mainContent2 {
+    position: relative;
+	padding: 35px;
+	height: 200px;
+}
+
+div#servicesNav {
+    position: absolute;
+	width: 290px;
+    top: 35px;
+	float: left;
+	margin-right: 25px;
+}
+
+#servicesNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#servicesNav li {
+    margin: 0;
+    padding: 0;
+}
+
+#servicesNav li a:link, #servicesNav li a:visited {
+    font-family: 'CartoGothicStdBold', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    display: block;
+    color: #636466;
+    text-decoration: none;
+	vertical-align: middle;
+	text-transform: uppercase;
+    padding: 0 0 0 20px;
+	margin: 0 0 3px 0;
+	height: 38px;
+	line-height: 43px;
+    border: none;
+	background: url(../images/services_nav.gif) no-repeat center bottom;
+}
+
+#servicesNav li a:hover, #servicesNav li a:active {
+    color: #000;
+	background: url(../images/services_nav.gif) no-repeat center top;
+}
+
+#servicesNav li a.current {
+    background: url(../images/services_nav.gif) no-repeat center top;
+    color: #000;
+}
+
+/* ===== servicesText ===== */
+
+div#servicesText {
+    position: absolute;
+    top: 15px;
+	left: 350px;
+	width: 605px;
+	height: 300px;
+	padding: 0;
+}
+
+#mainContent #servicesText p{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #6d6e71;
+	font-size: 0.75em;
+	line-height: 19px;
+}
+
+div#servicesText2 {
+    position: absolute;
+    top: 15px;
+	left: 350px;
+	width: 605px;
+	height: 200px;
+	padding: 0;
+}
+
+#mainContent2 #servicesText2 p{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #6d6e71;
+	font-size: 0.8em;
+	line-height: 19px;
+}
+
+#mainContent #servicesText p.firstpara{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #000000;
+	font-size: 0.75em;
+	line-height: 19px;
+}
+
+#mainContent #servicesText li{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #6d6e71;
+	font-size: 0.75em;
+	line-height: 19px;
+	list-style-image: url(../images/arrow.gif);
+}
+
+/* ===== contact text ===== */
+
+div#contactText {
+    position: absolute;
+    top: 15px;
+	left: 35px;
+	width: 285px;
+	height: 300px;
+	padding: 0;
+}
+
+#mainContent #contactText p{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #6d6e71;
+	font-size: 0.80em;
+	line-height: 19px;
+}
+
+#mainContent2 #contactText p{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #6d6e71;
+	font-size: 0.80em;
+	line-height: 19px;
+}
+
+#contactText a:link, #contactText a:visited {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #6d6e71;
+    text-decoration: none;
+}
+
+#contactText a:hover, #contactText a:active {
+    color: #000000;
+}
+
+/* ===== form ===== */
+
+.commentForm {
+	width: 604px;
+	height: 260px;
+	position: relative;
+}
+
+.commentForm input[type="text"], .commentForm textarea {
+	width: 285px;
+	padding-left: 5px;
+	position: absolute;
+	border-width: 0;
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    color: #6d6e71;
+	border: none;
+}
+
+*:focus {outline: none;} 
+
+.contact_name {
+	top: 0;
+	left: -1px;
+	height: 35px;
+	background-image: url(../images/bg-form.gif);
+}
+
+.company_name {
+	top: 45px;
+	left: -1px;
+	height: 35px;
+	background-image: url(../images/bg-form.gif);
+}
+
+.email_name{
+	top: 90px;
+	left: -1px;
+	height: 35px;
+	background-image: url(../images/bg-form.gif);
+}
+
+.telephone_name {
+	top: 135px;
+	left: -1px;
+	height: 35px;
+	background-image: url(../images/bg-form.gif);
+}
+
+.enquiry_name {
+	top: 180px;
+	left: -1px;
+	height: 35px;
+	background-image: url(../images/bg-form.gif);
+}
+
+.subject_name {
+	top: 0;
+	right: 0;
+	height: 35px;
+	background-image: url(../images/bg-form.gif);
+}
+
+.comment_name {
+	top: 45px;
+	height: 160px;
+	padding-top: 10px;
+	right: 0;
+	background-image: url(../images/bg-form.gif);
+}
+
+.submit {
+	position: absolute;
+	top: 220px;
+	right: 0;
+	width: 75px;
+	height: 30px;
+	border: none;
+	background-color: #e80e65;
+	color: #FFF;
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+	margin-top: 10px;
+}
+

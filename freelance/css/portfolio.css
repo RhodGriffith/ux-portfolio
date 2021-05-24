@@ -1,0 +1,1180 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ===== body ===== */
+
+body {
+  background-image: url(../images/bg.png);
+}
+
+div#outerDiv {
+    width: 990px;
+    margin: 15px auto;
+	background: #fff url(../images/cwcw_creative_logo.gif) no-repeat;
+}
+
+/* ===== header ===== */
+
+div#header {
+    height: 130px;
+    position: relative;
+	margin-bottom: 20px;
+}
+
+/* ===== language buttons ===== */
+
+#outerDiv div#langButtons {
+    position: absolute;
+    right: 0;
+    top: 0;
+	background: url(../images/black_bg.gif);
+}
+
+#langButtons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#langButtons li {
+    float: left;
+    margin: 0;
+    padding: 3px 0 0 0;
+}
+
+#langButtons li a:link, #langButtons li a:visited {
+    font-family: 'CartoGothicStdBold', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    display: block;
+    color: #808285;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 0 0 0 20px;
+    line-height: 30px;
+    border: none;
+}
+
+#langButtons li a:hover, langButtons li a:active {
+    color: #FFFFFF;
+}
+
+#langButtons li a.cym {
+	padding-right: 35px;
+}
+
+#langButtons li a.eng {
+	padding-left: 35px;
+}
+
+/* ===== main menu ===== */
+
+#header #mainMenu {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
+
+#mainMenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#mainMenu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#mainMenu li a:link, #mainMenu li a:visited {
+    font-family: 'CartoGothicStdBold', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    display: block;
+    color: #231F20;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 0 15px 9px 15px;
+    margin-right: 5px;
+    line-height: 35px;
+    border: none;
+}
+
+#mainMenu li a:hover, #mainMenu li a:active {
+    color: #fff;
+	background: url(../images/nav_rollover.gif) no-repeat center top;
+}
+
+#mainMenu li a.current {
+    background: url(../images/nav_rollover.gif) no-repeat center top;
+    color: #fff;
+}
+
+
+/* ===== main statement ===== */
+
+div#statement {
+    height: 50px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#statement p {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+	text-transform: uppercase;
+	color: #616367;
+}
+
+.bold {
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;	
+}
+
+
+
+/* ===== services ===== */
+
+div#services {
+    height: 15px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#services #textureSep {
+    position: absolute;
+    top: 0;
+	left: 130px;
+	height: 15px;
+	width: 825px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#services #title {
+    position: absolute;
+	top: -21px;
+	width: 300px;
+	padding: 0;
+}
+
+#services #titleGraphic {
+    position: absolute;
+	top: -21px;
+	padding: 0;
+	width: 300px;
+}
+
+h1 {
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #e80e65;
+	font-size: 1.5em;
+	letter-spacing: -1px;
+	position: absolute;
+	top: 0;
+	line-height: 27px;
+}
+
+h3 {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #e80e65;
+	font-size: 1.05em;
+	text-transform: uppercase;
+	top: 0;
+	line-height: 27px;
+}
+
+/* ===== portfolio links ===== */
+
+div#portfolioLinks {
+    height: 220px;
+    position: relative;
+	padding: 0 35px 0 35px;
+	margin-top: 20px;
+}
+
+#portfolioLinks p {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    display: block;
+    color: #929292;
+    text-decoration: none;
+}
+
+#portfolioLinks #clwbCarco {
+    position: absolute;
+	top: 0;
+	left: 35px;
+	width: 290px;
+	height: 220px;
+}
+
+#clwbCarco a:link, #clwbCarco a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/clwb_carco_sml.jpg) no-repeat center bottom;
+}
+
+#clwbCarco a:hover, #clwbCarco a:active {
+    color: #fff;
+	background: url(../images/clwb_carco_sml.jpg) no-repeat center top;
+}
+
+#portfolioLinks #barnsleyCivic {
+    position: absolute;
+	top: 0;
+	left: 35px;
+	width: 290px;
+	height: 220px;
+}
+
+#barnsleyCivic a:link, #barnsleyCivic a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/barnsley_civic.jpg) no-repeat center bottom;
+}
+
+#barnsleyCivic a:hover, #barnsleyCivic a:active {
+    color: #fff;
+	background: url(../images/barnsley_civic.jpg) no-repeat center top;
+}
+
+#portfolioLinks #techneg {
+    position: absolute;
+	top: 0;
+	left: 350px;
+	width: 290px;
+	height: 220px;
+}
+
+#techneg a:link, #techneg a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/web_design.jpg) no-repeat center bottom;
+}
+
+#techneg a:hover, #techneg a:active {
+    color: #fff;
+	background: url(../images/web_design.jpg) no-repeat center top;
+}
+
+#portfolioLinks #morphyRichards {
+    position: absolute;
+	top: 0;
+	left: 350px;
+	width: 290px;
+	height: 220px;
+}
+
+#morphyRichards a:link, #morphyRichards a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/graphic_design.jpg) no-repeat center bottom;
+}
+
+#morphyRichards a:hover, #morphyRichards a:active {
+    color: #fff;
+	background: url(../images/graphic_design.jpg) no-repeat center top;
+}
+
+#portfolioLinks #loveNepal {
+    position: absolute;
+	top: 0;
+	left: 665px;
+	width: 290px;
+	height: 220px;
+}
+
+#loveNepal a:link, #loveNepal a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/branding_identity.jpg) no-repeat center bottom;
+}
+
+#loveNepal a:hover, #loveNepal a:active {
+    color: #fff;
+	background: url(../images/branding_identity.jpg) no-repeat center top;
+}
+
+#portfolioLinks #siopyfelin {
+    position: absolute;
+	top: 0;
+	left: 665px;
+	width: 290px;
+	height: 220px;
+}
+
+#siopyfelin a:link, #siopyfelin a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/siopyfelin.jpg) no-repeat center bottom;
+}
+
+#siopyfelin a:hover, #siopyfelin a:active {
+    color: #fff;
+	background: url(../images/siopyfelin.jpg) no-repeat center top;
+}
+
+
+#portfolioLinks #safeguardingChildren {
+    position: absolute;
+	top: 0;
+	left: 665px;
+	width: 290px;
+	height: 220px;
+}
+
+#safeguardingChildren a:link, #safeguardingChildren a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/safeguarding_children.jpg) no-repeat center bottom;
+}
+
+#safeguardingChildren a:hover, #safeguardingChildren a:active {
+    color: #fff;
+	background: url(../images/safeguarding_children.jpg) no-repeat center top;
+}
+
+/* ===== portfolio links 2 ===== */
+
+div#portfolioLinks2 {
+    height: 220px;
+    position: relative;
+	padding: 0 35px 0 35px;
+	margin-top: 20px;
+}
+
+#portfolioLinks2 p {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    display: block;
+    color: #929292;
+    text-decoration: none;
+}
+
+#portfolioLinks2 #morphyRichards {
+    position: absolute;
+	top: 0;
+	left: 35px;
+	width: 290px;
+	height: 220px;
+}
+
+#morphyRichards a:link, #morphyRichards a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/graphic_design.jpg) no-repeat center bottom;
+}
+
+#morphyRichards a:hover, #morphyRichards a:active {
+    color: #fff;
+	background: url(../images/graphic_design.jpg) no-repeat center top;
+}
+
+
+#portfolioLinks2 #loveNepal {
+    position: absolute;
+	top: 0;
+	left: 35px;
+	width: 290px;
+	height: 220px;
+}
+
+#loveNepal a:link, #loveNepal a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/branding_identity.jpg) no-repeat center bottom;
+}
+
+#loveNepal a:hover, #loveNepal a:active {
+    color: #fff;
+	background: url(../images/branding_identity.jpg) no-repeat center top;
+}
+
+#portfolioLinks2 #rbs {
+    position: absolute;
+	top: 0;
+	left: 35px;
+	width: 290px;
+	height: 220px;
+}
+
+#rbs a:link, #rbs a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/rbs.jpg) no-repeat center bottom;
+}
+
+#rbs a:hover, #rbs a:active {
+    color: #fff;
+	background: url(../images/rbs.jpg) no-repeat center top;
+}
+
+
+#portfolioLinks2 #barnsleyCivic {
+    position: absolute;
+	top: 0;
+	left: 350px;
+	width: 290px;
+	height: 220px;
+}
+
+#barnsleyCivic a:link, #barnsleyCivic a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/barnsley_civic.jpg) no-repeat center bottom;
+}
+
+#barnsleyCivic a:hover, #barnsleyCivic a:active {
+    color: #fff;
+	background: url(../images/barnsley_civic.jpg) no-repeat center top;
+}
+
+#portfolioLinks2 #safeguardingChildren {
+    position: absolute;
+	top: 0;
+	left: 665px;
+	width: 290px;
+	height: 220px;
+}
+
+#safeguardingChildren a:link, #safeguardingChildren a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/safeguarding_children.jpg) no-repeat center bottom;
+}
+
+#safeguardingChildren a:hover, #safeguardingChildren a:active {
+    color: #fff;
+	background: url(../images/safeguarding_children.jpg) no-repeat center top;
+}
+
+
+/* ===== portfolio links 3 ===== */
+
+div#portfolioLinks3 {
+    height: 220px;
+    position: relative;
+	padding: 0 35px 0 35px;
+	margin-top: 20px;
+}
+
+#portfolioLinks3 p {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    display: block;
+    color: #929292;
+    text-decoration: none;
+}
+
+#portfolioLinks3 #siopyfelin {
+    position: absolute;
+	top: 0;
+	left: 35px;
+	width: 290px;
+	height: 220px;
+}
+
+#siopyfelin a:link, #siopyfelin a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/siopyfelin.jpg) no-repeat center bottom;
+}
+
+#siopyfelin a:hover, #siopyfelin a:active {
+    color: #fff;
+	background: url(../images/siopyfelin.jpg) no-repeat center top;
+}
+
+#portfolioLinks3 #rbs {
+    position: absolute;
+	top: 0;
+	left: 350px;
+	width: 290px;
+	height: 220px;
+}
+
+#rbs a:link, #rbs a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/rbs.jpg) no-repeat center bottom;
+}
+
+#rbs a:hover, #rbs a:active {
+    color: #fff;
+	background: url(../images/rbs.jpg) no-repeat center top;
+}
+
+
+/* ===== footer ===== */
+
+div#footer {
+    height: 85px;
+    position: relative;
+}
+
+/* ===== contactDetails ===== */
+
+div#contactDetails {
+    position: absolute;
+	height: 50px;
+    bottom: 0;
+	background-image: url(../images/black_bg.gif);
+	width: 990px;
+}
+
+#contactDetails ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contactDetails li {
+    float: left;
+    margin: 0;
+    padding: 25px 0 0 0;
+}
+
+#contactDetails li a:link, #contactDetails li a:visited {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    display: block;
+    color: #808285;
+    text-decoration: none;
+    padding: 0 0 0 35px;
+    border: none;
+}
+
+#contactDetails li {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    display: block;
+    color: #808285;
+    text-decoration: none;
+    padding: 25px 15px 0 0;
+    border: none;
+}
+
+#contactDetails li a:hover, #contactDetails li a:active {
+    color: #FFFFFF;
+}
+
+
+
+/* ===== footer ===== */
+
+div#divider {
+    height: 15px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#divider #texture {
+    position: absolute;
+	width: 920px;
+	height: 15px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+/* ===== filter ===== */
+
+#services #filter {
+    position: absolute;
+    right: 30px;
+}
+
+#filter ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#filter li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#filter li img {
+	position: relative;
+	top: 14px;
+	right: 8px;
+}
+
+#filter li a:link, #filter li a:visited {
+    font-family: 'CartoGothicStdBold', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    display: block;
+    color: #636466;
+    text-decoration: none;
+	text-transform: uppercase;
+    margin-right: 20px;
+    line-height: 50px;
+    border: none;
+}
+
+#filter li a:hover, #filter li a:active {
+    color: #000;
+}
+
+#filter li a.current {
+    color: #000000;
+}
+
+#filter .head {
+	font-size: 0.7em;
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    display: block;
+    color: #636466;
+	text-transform: uppercase;
+    margin-right: 20px;
+    line-height: 50px;
+}
+
+/* ===== project ===== */
+
+div#projectContent {
+    position: relative;
+	padding: 35px;
+	height: 800px;
+}
+
+div#projectImages {
+    position: absolute;
+	width: 605px;
+	float: left;
+	margin-right: 25px;
+}
+
+div#projectImages img {
+	margin-bottom: 20px;
+}
+
+div#projectText {
+    position: absolute;
+	top: 15px;
+	left: 665px;
+	width: 290px;
+	height: 500px;
+	padding: 0;
+}
+
+#projectContent #projectText p{
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #e80e65;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	line-height: 19px;
+}
+
+#projectContent #projectText p.firstpara{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #000000;
+	font-size: 0.7em;
+	line-height: 19px;
+}
+
+
+#projectContent #projectText p.disg{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #6d6e71;
+	font-size: 0.7em;
+	line-height: 19px;
+	text-transform: none;
+	padding-top: 28px;
+}
+
+#projectContent #projectTextSep {
+    position: absolute;
+    top: 58px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent #projectTextSep2 {
+    position: absolute;
+    top: 107px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent #projectTextSep3 {
+    position: absolute;
+    top: 400px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent #projectTextSep4 {
+    position: absolute;
+    top: 449px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent #projectTextSep5 {
+    position: absolute;
+    top: 286px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent #projectTextSep6 {
+    position: absolute;
+    top: 335px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent #projectTextSep7 {
+    position: absolute;
+    top: 325px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent #projectTextSep8 {
+    position: absolute;
+    top: 374px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+div#projectContent2 {
+    position: relative;
+	padding: 35px;
+	height: 650px;
+}
+
+#projectContent2 #projectText p{
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #e80e65;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	line-height: 19px;
+}
+
+#projectContent2 #projectText p.firstpara{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #000000;
+	font-size: 0.7em;
+	line-height: 19px;
+}
+
+
+#projectContent2 #projectText p.disg{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #6d6e71;
+	font-size: 0.7em;
+	line-height: 19px;
+	text-transform: none;
+	padding-top: 28px;
+	padding-bottom: 6px;
+}
+
+#projectContent2 #projectTextSep {
+    position: absolute;
+    top: 58px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent2 #projectTextSep2 {
+    position: absolute;
+    top: 107px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent2 #projectTextSep3 {
+    position: absolute;
+    top: 400px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent2 #projectTextSep4 {
+    position: absolute;
+    top: 449px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent2 #projectTextSep5 {
+    position: absolute;
+    top: 286px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent2 #projectTextSep6 {
+    position: absolute;
+    top: 335px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+
+div#projectContent3 {
+    position: relative;
+	padding: 35px;
+	height: 1400px;
+}
+
+#projectContent3 #projectText p{
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #e80e65;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	line-height: 19px;
+}
+
+#projectContent3 #projectText p.firstpara{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #000000;
+	font-size: 0.7em;
+	line-height: 19px;
+}
+
+
+#projectContent3 #projectText p.disg{
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #6d6e71;
+	font-size: 0.7em;
+	line-height: 19px;
+	text-transform: none;
+	padding-top: 28px;
+	padding-bottom: 6px;
+}
+
+#projectContent3 #projectTextSep {
+    position: absolute;
+    top: 58px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent3 #projectTextSep2 {
+    position: absolute;
+    top: 107px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent3 #projectTextSep3 {
+    position: absolute;
+    top: 400px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent3 #projectTextSep4 {
+    position: absolute;
+    top: 449px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent3 #projectTextSep5 {
+    position: absolute;
+    top: 324px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectContent3 #projectTextSep6 {
+    position: absolute;
+    top: 373px;
+	left: 0;
+	height: 7px;
+	width: 290px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#projectText a:link, #projectText a:visited {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #6d6e71;
+	text-decoration: none;
+}
+
+#projectText a:hover, #projectText a:active {
+    color: #e80e65;
+}
+
+
+/* ===== back ===== */
+
+#projectContent #back {
+    position: absolute;
+	left: 0;
+	width: 290px;
+}
+
+#back ul {
+    list-style: none;
+	margin-top: 11px;
+    padding: 0;
+}
+
+#back li {
+    float: left;
+	margin: 0;
+    padding: 0;
+}
+
+#back li img {
+	position: relative;
+	top: 14px;
+}
+
+#back li a:link, #back li a:visited {
+    font-family: 'CartoGothicStdBold', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    display: block;
+    color: #636466;
+    text-decoration: none;
+	text-transform: uppercase;
+    line-height: 50px;
+    border: none;
+}
+
+#back li a:hover, #back li a:active {
+    color: #000;
+}

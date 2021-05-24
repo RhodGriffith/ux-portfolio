@@ -1,0 +1,565 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ===== body ===== */
+
+body {
+  background-image: url(../images/bg.png);
+}
+
+div#outerDiv {
+    width: 990px;
+    margin: 15px auto;
+	background: #fff url(../images/cwcw_creative_logo.gif) no-repeat;
+}
+
+/* ===== header ===== */
+
+div#header {
+    height: 130px;
+    position: relative;
+}
+
+/* ===== language buttons ===== */
+
+#outerDiv div#langButtons {
+    position: absolute;
+    right: 0;
+    top: 0;
+	background: url(../images/black_bg.gif);
+}
+
+#langButtons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#langButtons li {
+    float: left;
+    margin: 0;
+    padding: 3px 0 0 0;
+}
+
+#langButtons li a:link, #langButtons li a:visited {
+    font-family: 'CartoGothicStdBold', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    display: block;
+    color: #808285;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 0 0 0 20px;
+    line-height: 30px;
+    border: none;
+}
+
+#langButtons li a:hover, langButtons li a:active {
+    color: #FFFFFF;
+}
+
+#langButtons li a.cym {
+	padding-right: 35px;
+}
+
+#langButtons li a.eng {
+	padding-left: 35px;
+}
+
+/* ===== main menu ===== */
+
+#header #mainMenu {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
+
+#mainMenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#mainMenu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#mainMenu li a:link, #mainMenu li a:visited {
+    font-family: 'CartoGothicStdBold', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    display: block;
+    color: #231F20;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 0 15px 9px 15px;
+    margin-right: 5px;
+    line-height: 35px;
+    border: none;
+}
+
+#mainMenu li a:hover, #mainMenu li a:active {
+    color: #fff;
+	background: url(../images/nav_rollover.gif) no-repeat center top;
+}
+
+#mainMenu li a.current {
+    background: url(../images/nav_rollover.gif) no-repeat center top;
+    color: #fff;
+}
+
+/* ===== main banner ===== */
+
+.marquee_panels { 
+	display: none; 
+}
+
+.marquee_container { 
+	position: relative; 
+	width: 920px; 
+	height: 385px; 
+	overflow: hidden; 
+	margin: 0 0 0 35px; 
+	padding: 0;
+}
+
+.marquee_photos { 
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	display: none; 
+}
+
+.marquee_caption {
+	width: 920px;
+	position: absolute;
+	top: 335px;
+	left: 0px;
+	margin: 0;
+	padding: 0 0 0 0;
+	color: #fff;
+	background: url(../images/marquee_caption.jpg) no-repeat;
+}
+
+.marquee_caption_content {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+	width: 410px;
+	padding: 4px 0 3px 30px;
+}
+
+
+.marquee_nav { 
+	position: absolute; 
+	width: 150px; 
+	top: 355px; 
+	right: 20px; 
+	text-align: right; 
+}
+
+.marquee_nav a {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-left: 5px;
+	background: url(../images/nav_buttons.png) no-repeat 0px 0px;
+	cursor: pointer;
+}
+
+.marquee_nav a.selected { 
+	background-position: -16px 0px; 
+}
+
+
+/* ===== main statement ===== */
+
+div#statement {
+    height: 72px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#statement p {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+	text-transform: uppercase;
+	color: #616367;
+}
+
+.bold {
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;	
+}
+
+
+
+/* ===== services ===== */
+
+div#services {
+    height: 32px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#services #textureSep {
+    position: absolute;
+    top: 0;
+	clear: both;
+	left: 125px;
+	height: 15px;
+	width: 830px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#services #title {
+    position: absolute;
+	top: -26px;
+	clear: both;
+	float: left;
+	width: 90px;
+	padding: 0;
+}
+
+#services #title2 {
+    position: absolute;
+	top: -26px;
+	clear: both;
+	float: left;
+	width: 90px;
+	padding: 0;
+}
+
+#services #title h2{
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #000000;
+	font-size: 1.5em;
+	letter-spacing: -1px;
+	position: absolute;
+	top: 0;
+	line-height: 27px;
+}
+
+#services #title2 h2{
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #000000;
+	font-size: 1.5em;
+	letter-spacing: -1px;
+	position: absolute;
+	top: 0;
+	line-height: 27px;
+}
+
+/* ===== services links ===== */
+
+div#servicesLinks {
+    height: 190px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#servicesLinks #graphicDesign {
+    position: absolute;
+	top: 0;
+	left: 35px;
+	width: 290px;
+	height: 190px;
+}
+
+#graphicDesign a:link, #graphicDesign a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/graphic_design.jpg) no-repeat center bottom;
+}
+
+#graphicDesign a:hover, #graphicDesign a:active {
+    color: #fff;
+	background: url(../images/graphic_design.jpg) no-repeat center top;
+}
+
+#servicesLinks #webDesign {
+    position: absolute;
+	top: 0;
+	left: 350px;
+	width: 290px;
+	height: 190px;
+}
+
+#webDesign a:link, #webDesign a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/web_design.jpg) no-repeat center bottom;
+}
+
+#webDesign a:hover, #webDesign a:active {
+    color: #fff;
+	background: url(../images/web_design.jpg) no-repeat center top;
+}
+
+#servicesLinks #brandingIdentity {
+    position: absolute;
+	top: 0;
+	left: 665px;
+	width: 290px;
+	height: 190px;
+}
+
+#brandingIdentity a:link, #brandingIdentity a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/branding_identity.jpg) no-repeat center bottom;
+}
+
+#brandingIdentity a:hover, #brandingIdentity a:active {
+    color: #fff;
+	background: url(../images/branding_identity.jpg) no-repeat center top;
+}
+
+
+
+/* ===== portfolio ===== */
+
+div#portfolio {
+    height: 60px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#portfolio #portfolioTextureSep {
+    position: absolute;
+    top: 28px;
+	left: 135px;
+	height: 15px;
+	width: 820px;
+	background: #fff url(../images/bg-texture.gif);
+}
+
+#portfolio #portfolioTitle {
+    position: absolute;
+	top: 2px;
+	width: 90px;
+	padding: 0;
+}
+
+#portfolio #portfolioTitle h2{
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #000000;
+	font-size: 1.5em;
+	letter-spacing: -1px;
+	position: absolute;
+	top: 0;
+	line-height: 27px;
+}
+
+div#test {
+    width: 920px;
+}
+
+/* ===== portfolio links ===== */
+
+div#portfolioLinks {
+    height: 190px;
+    position: relative;
+	padding: 0 35px 0 35px;
+}
+
+#portfolioLinks #clwbCarco {
+    position: absolute;
+	top: 0;
+	left: 35px;
+	width: 290px;
+	height: 190px;
+}
+
+#clwbCarco a:link, #clwbCarco a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/clwb_carco_sml.jpg) no-repeat center bottom;
+}
+
+#clwbCarco a:hover, #clwbCarco a:active {
+    color: #fff;
+	background: url(../images/clwb_carco_sml.jpg) no-repeat center top;
+}
+
+#portfolioLinks #barnsleyCivic {
+    position: absolute;
+	top: 0;
+	left: 350px;
+	width: 290px;
+	height: 190px;
+}
+
+#barnsleyCivic a:link, #barnsleyCivic a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/barnsley_civic.jpg) no-repeat center bottom;
+}
+
+#barnsleyCivic a:hover, #barnsleyCivic a:active {
+    color: #fff;
+	background: url(../images/barnsley_civic.jpg) no-repeat center top;
+}
+
+#portfolioLinks #safeguardingChildren {
+    position: absolute;
+	top: 0;
+	left: 665px;
+	width: 290px;
+	height: 190px;
+}
+
+#safeguardingChildren a:link, #safeguardingChildren a:visited {
+	font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85em;
+	text-transform: uppercase;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 164px 0 0 25px;
+    margin: 0;
+	height: 26px;
+    border: none;
+	background: url(../images/safeguarding_children.jpg) no-repeat center bottom;
+}
+
+#safeguardingChildren a:hover, #safeguardingChildren a:active {
+    color: #fff;
+	background: url(../images/safeguarding_children.jpg) no-repeat center top;
+}
+
+
+/* ===== footer ===== */
+
+div#footer {
+    height: 85px;
+    position: relative;
+}
+
+/* ===== contactDetails ===== */
+
+div#contactDetails {
+    position: absolute;
+	height: 50px;
+    bottom: 0;
+	background-image: url(../images/black_bg.gif);
+	width: 990px;
+}
+
+#contactDetails ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contactDetails li {
+    float: left;
+    margin: 0;
+    padding: 25px 0 0 0;
+}
+
+#contactDetails li a:link, #contactDetails li a:visited {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    display: block;
+    color: #808285;
+    text-decoration: none;
+    padding: 0 0 0 35px;
+    border: none;
+}
+
+#contactDetails li {
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    display: block;
+    color: #808285;
+    text-decoration: none;
+    padding: 25px 15px 0 0;
+    border: none;
+}
+
+#contactDetails li a:hover, #contactDetails li a:active {
+    color: #FFFFFF;
+}
+
+#contactDetails .copyright {
+	padding-left: 480px;
+	font-size: 0.7em;
+}
+

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#services #title2 {
+    position: absolute;
+	top: -28px;
+	clear: both;
+	float: left;
+	width: 90px;
+	padding: 0;
+}
+
+#services #title {
+    position: absolute;
+	top: -23px;
+	width: 300px;
+	padding: 0;
+}
+
+#freelance #title {
+    position: absolute;
+	top: -23px;
+	width: 300px;
+	padding: 0;
+}
+
+#services #titleGraphic {
+    position: absolute;
+	top: -23px;
+	padding: 0;
+	width: 300px;
+}
+
+#portfolio #portfolioTitle {
+    position: absolute;
+	top: 0;
+	width: 123px;
+	padding: 0;
+}
+
+#portfolio #graphicTitle h2{
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #000000;
+	font-size: 1.5em;
+	letter-spacing: -1px;
+	position: absolute;
+	top: 0;
+	line-height: 27px;
+}
+
+#filter li img {
+	position: relative;
+	top: 20px;
+	right: 8px;
+}
+
+#projectContent #projectText p{
+	font-family: 'CartoGothicStdBold', Arial, sans-serif;
+	font-style: normal;
+    font-weight: normal;
+	color: #e80e65;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	line-height: 17px;
+}
+
+#back ul {
+    list-style: none;
+	margin-top: 13px;
+    padding: 0;
+}
+
+#back li img {
+	position: relative;
+	top: 20px;
+}
+
+.commentForm input[type="text"] {
+	width: 285px;
+	padding-left: 5px;
+	position: absolute;
+	border-width: 0;
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+	line-height: 33px;
+    font-size: 0.8em;
+    color: #6d6e71;
+	border: none;
+}
+
+.commentForm textarea {
+	width: 285px;
+	padding-left: 5px;
+	position: absolute;
+	border-width: 0;
+    font-family: 'CartoGothicStdBook', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    color: #6d6e71;
+	border: none;
+}
