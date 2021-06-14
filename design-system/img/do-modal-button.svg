@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#00916A" fill-rule="nonzero" x="0" y="0" width="6" height="300"></rect>
+        <rect id="Rectangle" fill="#F5F5F5" fill-rule="nonzero" x="6" y="0" width="495" height="300"></rect>
+        <path d="M33.5,12 C25.0095541,12 18,18.910828 18,27.5 C18,36.089172 24.910828,43 33.5,43 C42.089172,43 49,36.089172 49,27.5 C49,18.910828 41.9904459,12 33.5,12 Z M30.4394904,35.2006369 L22.7388535,27.5 L24.910828,25.3280255 L30.4394904,30.8566879 L42.089172,19.1082803 L44.2611465,21.2802548 L30.4394904,35.2006369 Z" id="Shape" fill="#00916A" fill-rule="nonzero"></path>
+        <g id="Group" transform="translate(77.000000, 51.000000)">
+            <rect id="Rectangle" stroke="#E3E4E5" fill="#FFFFFF" x="0.5" y="0.5" width="348" height="194"></rect>
+            <rect id="Rectangle" fill="#EE020A" x="179" y="118" width="136" height="41" rx="3"></rect>
+            <rect id="Rectangle" fill="#E3E4E5" x="29" y="118" width="136" height="41" rx="3"></rect>
+            <path id="Line-2" d="M291.015866,126.96832 L315,139 L290.984176,150.968299 L290.997,140.967 L30.9973592,140.624998 L28.9973609,140.622357 L29.0026426,136.622361 L31.0026408,136.625002 L291.002,136.967 L291.015866,126.96832 Z" fill="#5151D3" fill-rule="nonzero"></path>
+            <rect id="Rectangle" fill="#C6CACC" x="29" y="44" width="286" height="12"></rect>
+            <rect id="Rectangle" fill="#C6CACC" x="29" y="66" width="286" height="12"></rect>
+            <rect id="Rectangle" fill="#C6CACC" x="29" y="88" width="220" height="12"></rect>
+            <path id="Line-3" d="M316.451036,47.5721418 L317.427858,51.4510356 L315.488411,51.9394469 L52.761,118.102 L55.203831,127.799183 L29,122.023437 L49.3428953,104.52582 L51.784,114.223 L314.511589,48.0605531 L316.451036,47.5721418 Z" fill="#5151D3" fill-rule="nonzero"></path>
+            <path id="Line-2" d="M291,14.875 L315,26.875 L291,38.875 L291,28.875 L27,28.875 L27,24.875 L291,24.875 L291,14.875 Z" fill="#5151D3" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
