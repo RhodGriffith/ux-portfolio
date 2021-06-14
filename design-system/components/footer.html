@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<title>Footer – Neptune</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link rel="stylesheet" href="../css/master.css" media="all">
+</head>
+
+<body>
+
+<header>
+	<div class="navbar">
+		<div class="ds-hero" id="navbar">
+			<div class="container container--full-width">
+				<div class="grid">
+	    			<div class="grid__col col-3@m">
+						<a href="../index.html"><img src="../img/lexis-icon.svg" class="lexis-icon" alt="Neptune"></a>
+					</div>
+					<div class="grid__col col-9@m">
+						<div class="topnav">
+							<div class="topnav-right">
+								<a href="../index.html">Home</a>
+								<a href="../styles.html">Styles</a>
+								<a href="../components.html" class="active">Components</a>
+								<a href="../patterns.html">Patterns</a>
+								<a href="">Accessibility</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section>
+	<div class="sidenav">
+	  <a href="accordion.html">Accordion</a>
+	  <a href="buttons.html">Buttons</a>
+	  <a href="checkbox.html">Checkbox</a>
+	  <a href="" class="active">Footer</a>
+	  <a href="header.html">Header</a>
+	  <a href="links.html">Links</a>
+	  <a href="radio-button.html">Radio button</a>
+	  <a href="text-input.html">Text input</a>
+	</div>
+</section>
+
+<main>
+	<div class="main">
+		<div class="sidenav-container">
+			<div class="ds-article">
+				<nav aria-label="Breadcrumb" class="u-mt-l">
+					<ol class="breadcrumb">
+					  <li><a href="../index.html">Home</a></li>
+					  <li><a href="../components.html">Components</a></li>
+					  <li class="bc-active">Footer</li>
+					</ol>
+				</nav>
+				<section>
+					<div class="ds-para">
+						<h1 class="u-mt-l u-fs-xxxl">Footer</h1>
+						<p class="u-fs-s">The footer provides links to supplementary information as well as copyright, licensing, RELX branding and other required legal information.</p>
+					</div>
+					<div class="seperator u-mt-l"></div>
+				</section>
+				<section>
+					<p class="u-fs-m u-dark u-fw-600 u-mt-l">Contents</p>
+					<ol class="list list--bare u-mt-s">
+						<li class="list__item"><a href="#section1">Standard footer</a></li>
+						<li class="list__item"><a href="#section2">Simple footer</a></li>
+						<li class="list__item"><a href="#section3">Design guidelines</a></li>
+						<li class="list__item"><a href="#section4">Accessibility</a></li>
+						<li class="list__item"><a href="#section5">Related research</a></li>
+					</ol>
+				<div class="seperator u-mt-l"></div>
+				</section>
+
+				<section>
+					<div class="ds-para">
+						<a id="section1"></a>
+						<h2 class="u-mt-l u-fs-xl">Standard footer</h2>
+						<p class="u-fs-body">Use the standard footer on all public facing pages (such as sign in) where RELX branding should be included.</p>
+					</div>
+					<div class="example-panel-no-padding u-mt-m">
+						<a href="examples/footer-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<footer class="footer">
+							<div class="container">
+							  <div class="grid">
+							    <div class="grid__col col-8@m">
+							      <div class="footer--links">
+									<ul class="list list--bare list--inline">
+									  <li class="list__item u-white u-fs-xs">Copyright &#169; 2020 LexisNexis Risk Solutions</li>
+									  <li class="list__item"><a href="#">Terms & Conditions</a></li>
+									  <li class="list__item"><a href="#">Privacy Policy</a></li>
+									  <li class="list__item"><a href="#">Legal</a></li>
+									</ul>
+								  </div>
+							    </div>
+							    <div class="grid__col col-4@m">
+							      <img src="../img/RELX-logo.svg" class="relx--logo" alt="RELX">
+							    </div>
+							  </div>
+							</div>
+						</footer>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button1'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button1">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"footer"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"grid"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"grid__col col-8@m"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"footer--links"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list list--bare list--inline"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item u-white u-fs-xs"</span>&gt;</span><span class="hljs-tag"></span>Copyright &#169; 2020 LexisNexis Risk Solutions<span class="hljs-tag"></span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Terms & Conditions<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Privacy Policy<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Legal<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"grid__col col-4@m"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">scr</span>=<span class="hljs-string">"../img/RELX-logo.svg"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"relx--logo"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"RELX logo"</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span></code>
+					</div>
+				</section>
+
+				<div class="seperator u-mt-xl"></div>
+
+				<section>
+					<div class="ds-para">
+						<a id="section2"></a>
+						<h2 class="u-mt-l u-fs-xl">Simple footer</h2>
+						<p class="u-fs-body">Use the simple footer if you only need copyright, required legal information and other links in the footer. The simple footer is typically used inside products.</p>
+					</div>
+					<div class="example-panel-no-padding u-mt-m">
+						<a href="examples/floating-input-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<footer class="footer">
+							<div class="container">
+							  <div class="grid">
+							    <div class="grid__col col-8@m">
+							      <div class="footer--links">
+									<ul class="list list--bare list--inline">
+									  <li class="list__item u-white u-fs-xs">Copyright &#169; 2020 LexisNexis Risk Solutions</li>
+									  <li class="list__item"><a href="#">Terms & Conditions</a></li>
+									  <li class="list__item"><a href="#">Privacy Policy</a></li>
+									  <li class="list__item"><a href="#">Legal</a></li>
+									</ul>
+								  </div>
+							    </div>
+							  </div>
+							</div>
+						</footer>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button2'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button2">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"footer"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"grid"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"grid__col col-8@m"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"footer--links"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list list--bare list--inline"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item u-white u-fs-xs"</span>&gt;</span><span class="hljs-tag"></span>Copyright &#169; 2020 LexisNexis Risk Solutions<span class="hljs-tag"></span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Terms & Conditions<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Privacy Policy<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Legal<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span></code>
+					</div>
+				</section>
+
+				<div class="seperator u-mt-xl"></div>
+
+		        <section>
+					<div class="ds-para">
+						<a id="section3"></a>
+						<h2 class="u-mt-l u-fs-xl">Design guidelines</h2>
+						<h3 class="u-fs-m u-mt-m">Anatomy of a footer</h3>
+					</div>
+					<div class="grid u-mt-m">
+						<div class="grid__col col-12@m">
+							<img src="../img/footer-anatomy.svg" alt="Accordion anatomy">
+						</div>
+					</div>
+					<div class="ds-para">
+						<ol class="list u-mt-s">
+						<li class="list__item u-fw-600 u-dark">Copyright information<p class="u-fs-body">Required copyright information</p></li>
+						<li class="list__item u-fw-600 u-dark">Links<p class="u-fs-body">Use the footer to provide links to content which you may not want to include in the primary navigation of a product site. These could include links to required legal information or customer support pages on the LexisNexis Risk website.</p></li>
+						<li class="list__item u-fw-600 u-dark">RELX branding<p class="u-fs-body">It's a requirement to include RELX branding in the footer on all public facing pages. The logo should provide a link the the main RELX website which opens in a new window.</p></li>
+					</ol>
+					</div>
+
+		        <div class="seperator u-mt-xl"></div>
+
+				<section>
+					<div class="ds-para inline-code">
+						<a id="section4"></a>
+							<h2 class="u-mt-l u-fs-xl">Accessibility</h2>
+							<h3 class="u-mt-m u-fs-m">Page regions</h3>
+							<p class="u-fs-body">Similar to the page header, all products will have have a region at the bottom of every page that contains site-wide information, such as copyright information, privacy statements, legal information, or customer support links. HTML5 provides the <code>&#60;footer&#62;</code> element, which can be used to define such a region.</p>
+							<h3 class="u-mt-m u-fs-m">Footer navigation</h3>
+							<p class="u-fs-body">All navigation elements should have a <code>&#60;nav&#62;</code> tag. If you have to use a more generic element such as a <code>&#60;div&#62;</code> , add <code>role="navigation"</code> to every navbar to explicitly identify it as a landmark region for users of assistive technologies.</p>
+							<p class="u-fs-body">Menus should be labeled according to their individual function. Use <code>class="visuallyhidden"</code>, <code>aria-label=""</code>, or <code>aria-labelledby=""</code> to easily add context to the different menus on your site.</p>
+		      </div>
+				</section>
+
+				<div class="seperator u-mt-xl"></div>
+
+				<section>
+					<div class="u-mb-xl">
+						<a id="section5"></a>
+						<h2 class="u-mt-l u-fs-xl">Related research</h2>
+						<ul class="list list--bare u-mt-s">
+							<li class="list__item"><a href="https://www.w3.org/WAI/tutorials/page-structure/regions/" target="_blank">W3C – Page Regions</a></li>
+							<li class="list__item"><a href="https://a11y-style-guide.com/style-guide/section-navigation.html#kssref-navigation-navigation-footer" target="_blank">A11y Style guide: Footer Navigation</a></li><br><br><br>
+						</ul>
+					</div>
+				</section>
+					
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="../js/show-hide.js"></script>
+<script type="text/javascript" src="../js/focus.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="../js/floating-label.js"></script>
+
+</body>
+</html>

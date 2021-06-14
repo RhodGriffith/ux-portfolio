@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<title>Radio button – Neptune</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link rel="stylesheet" href="../css/master.css" media="all">
+</head>
+
+<body>
+
+<header>
+	<div class="navbar">
+		<div class="ds-hero" id="navbar">
+			<div class="container container--full-width">
+				<div class="grid">
+	    			<div class="grid__col col-3@m">
+						<a href="../index.html"><img src="../img/lexis-icon.svg" class="lexis-icon" alt="Neptune"></a>
+					</div>
+					<div class="grid__col col-9@m">
+						<div class="topnav">
+							<div class="topnav-right">
+								<a href="../index.html">Home</a>
+								<a href="../styles.html">Styles</a>
+								<a href="../components.html" class="active">Components</a>
+								<a href="../patterns.html">Patterns</a>
+								<a href="">Accessibility</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section>
+	<div class="sidenav">
+	  <a href="accordion.html">Accordion</a>
+	  <a href="buttons.html">Buttons</a>
+	  <a href="checkbox.html">Checkbox</a>
+	  <a href="footer.html">Footer</a>
+	  <a href="header.html">Header</a>
+	  <a href="links.html">Links</a>
+	  <a href="" class="active">Radio button</a>
+	  <a href="text-input.html">Text input</a>
+	</div>
+</section>
+
+<main>
+	<div class="main">
+		<div class="sidenav-container">
+			<div class="ds-article">
+				<nav aria-label="Breadcrumb" class="u-mt-l">
+					<ol class="breadcrumb">
+					  <li><a href="../index.html">Home</a></li>
+					  <li><a href="../components.html">Components</a></li>
+					  <li class="bc-active">Radio button</li>
+					</ol>
+				</nav>
+				<section>
+					<div class="ds-para">
+						<h1 class="u-mt-l u-fs-xxxl">Radio button</h1>
+						<p class="u-fs-s">A radio button allows a user to choose only one of a predefined set of mutually exclusive options.</p>
+					</div>
+					<div class="seperator u-mt-l"></div>
+				</section>
+				<section>
+					<p class="u-fs-m u-dark u-fw-600 u-mt-l">Contents</p>
+					<ol class="list list--bare u-mt-s">
+						<li class="list__item"><a href="#section1">Standard radio button</a></li>
+						<li class="list__item"><a href="#section2">Large radio button</a></li>
+						<li class="list__item"><a href="#section3">Small cradio button</a></li>
+						<li class="list__item"><a href="#section4">Design guidelines</a></li>
+						<li class="list__item"><a href="#section5">Accessibility</a></li>
+						<li class="list__item"><a href="#section6">Related research</a></li>
+					</ol>
+				<div class="seperator u-mt-l"></div>
+				</section>
+
+				<section>
+					<div class="ds-para">
+						<a id="section1"></a>
+						<h2 class="u-mt-l u-fs-xl">Standard radio button</h2>
+						<p class="u-fs-body"></p>
+					</div>
+					<div class="example-panel u-mt-m">
+						<a href="examples/radio-button-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<fieldset class="fieldset">
+							<legend class="fieldset__legend">Please select a search type</legend>
+							<div class="radio__items">
+			    				<p class="radio__item">
+			        				<input type="radio" id="business" class="radio__input" value="business" name="search-type">
+			        				<label id="business-label" class="radio__label" for="business">Business debtor tracing</label>
+			    				</p>
+			    				<p class="radio__item">
+			        				<input type="radio" id="debtor-tracing" class="radio__input" value="debtor-tracing" name="search-type">
+			        				<label id="debtor-tracing-label" class="radio__label" for="debtor-tracing">Consumer debtor tracing</label>
+			    				</p>
+			    				<p class="radio__item">
+			        				<input type="radio" id="customer-management" class="radio__input" value="customer-management" name="search-type">
+			        				<label id="customer-management-label" class="radio__label" for="customer-management">Customer management</label>
+			    				</p>
+			  				</div>
+		  				</fieldset>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button1'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button1">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">legend</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset__legend"</span>&gt;</span>Please select a search type<span class="hljs-tag">&lt;/<span class="hljs-name">legend</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__items"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"business-tracing"</span>&gt;</span>Business debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"consumer-tracing"</span>&gt;</span>Consumer debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"customer-management"</span>&gt;</span>Customer management<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span></code>
+					</div>
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m">Inline example</h3>
+						<p class="u-fs-body">Radio buttons can be displayed inline if there's limited space and the labels are short.</p>
+					</div>
+					<div class="example-panel u-mt-m">
+						<a href="examples/radio-button-inline-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<fieldset class="fieldset">
+							<legend class="fieldset__legend">Please select a search type</legend>
+							<div class="radio__items-inline">
+			    				<p class="radio__item">
+			        				<input type="radio" id="business-two" class="radio__input" value="business-two" name="search-type-two">
+			        				<label id="business-label-two" class="radio__label" for="business-two">Business debtor tracing</label>
+			    				</p>
+			    				<p class="radio__item">
+			        				<input type="radio" id="debtor-tracing-two" class="radio__input" value="debtor-tracing-two" name="search-type-two">
+			        				<label id="debtor-tracing-label-two" class="radio__label" for="debtor-tracing-two">Consumer debtor tracing</label>
+			    				</p>
+			    				<p class="radio__item">
+			        				<input type="radio" id="customer-management-two" class="radio__input" value="customer-management-two" name="search-type-two">
+			        				<label id="customer-management-label-two" class="radio__label" for="customer-management-two">Customer management</label>
+			    				</p>
+			  				</div>
+				  		</fieldset>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button2'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button2">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">legend</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset__legend"</span>&gt;</span>Please select a search type<span class="hljs-tag">&lt;/<span class="hljs-name">legend</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__items-inline"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"business-tracing"</span>&gt;</span>Business debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"consumer-tracing"</span>&gt;</span>Consumer debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"customer-management"</span>&gt;</span>Customer management<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span></code>
+					</div>
+
+				</section>
+
+				<div class="seperator u-mt-xl"></div>
+
+				<section>
+					<div class="ds-para">
+						<a id="section2"></a>
+						<h2 class="u-mt-l u-fs-xl">Large radio button</h2>
+						<p>An outline can be applied to radio buttons to give them more prominence.</p>
+					</div>
+					<div class="example-panel u-mt-m">
+						<a href="examples/radio-button-large-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<fieldset class="fieldset">
+							<legend class="fieldset__legend">Please select a search type</legend>
+								<div class="radio__items">
+				    				<p class="radio-large__item">
+				      					<span class="radio">
+				        					<input type="radio" id="business-three" class="radio-large__input" value="business-three" name="search-type-three">
+				        					<label id="business-three-label" class="radio-large__label" for="business-three">Business debtor tracing</label>
+				    					</span>
+				    				</p>
+				    				<p class="radio-large__item">
+				      					<span class="radio">
+				        					<input type="radio" id="debtor-tracing-three" class="radio-large__input" value="debtor-tracing-three" name="search-type-three">
+				        					<label id="debtor-tracing-three-label" class="radio-large__label" for="debtor-tracing-three">Consumer debtor tracing</label>
+				    					</span>
+				    				</p>
+				    				<p class="radio-large__item">
+				      					<span class="radio">
+				        					<input type="radio" id="customer-management-three" class="radio-large__input" value="customer-management-three" name="search-type-three">
+				        					<label id="customer-management-three-label" class="radio-large__label" for="customer-management-three">Customer management</label>
+				    					</span>
+				    				</p>
+				  				</div>
+				  		</fieldset>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button3'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button3">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">legend</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset__legend"</span>&gt;</span>Please select a search type<span class="hljs-tag">&lt;/<span class="hljs-name">legend</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__items"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"business-tracing"</span>&gt;</span>Business debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"consumer-tracing"</span>&gt;</span>Consumer debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"customer-management"</span>&gt;</span>Customer management<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span></code>
+					</div>
+
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m">Inline example</h3>
+					</div>
+					<div class="example-panel u-mt-m">
+						<a href="examples/radio-button-large-inline-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<fieldset class="fieldset">
+						  <legend class="fieldset__legend">Please select a search type</legend>
+						    <div class="radio__items">
+						        <p class="radio-large__item-inline">
+						            <span class="radio">
+						              <input type="radio" id="business-four" class="radio-large__input" value="business-four" name="search-type-four">
+						              <label id="business-label-four" class="radio-large__label" for="business-four">Business debtor tracing</label>
+						          </span>
+						        </p>
+						        <p class="radio-large__item-inline">
+						            <span class="radio">
+						              <input type="radio" id="debtor-tracing-four" class="radio-large__input" value="debtor-tracing-four" name="search-type-four">
+						              <label id="debtor-tracing-label-four" class="radio-large__label" for="debtor-tracing-four">Consumer debtor tracing</label>
+						          	</span>
+						        </p>
+						        <p class="radio-large__item-inline">
+						            <span class="radio">
+						              <input type="radio" id="influential-person" class="radio-large__input" value="influential-person" name="search-type-four">
+						              <label id="influential-person-label" class="radio-large__label" for="influential-person">Customer management</label>
+						          </span>
+						        </p>
+						      </div>
+						</fieldset>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button4'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button4">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">legend</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset__legend"</span>&gt;</span>Please select a search type<span class="hljs-tag">&lt;/<span class="hljs-name">legend</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__items"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__item-inline"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"business-tracing"</span>&gt;</span>Business debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__item-inline"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"checkbox"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"consumer-tracing"</span>&gt;</span>Consumer debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__item-inline"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-large__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"customer-management"</span>&gt;</span>Customer management<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span></code>
+					</div>
+
+				</section>
+
+				<div class="seperator u-mt-xl"></div>
+
+				<section>
+					<div class="ds-para">
+						<a id="section3"></a>
+						<h2 class="u-mt-l u-fs-xl">Small radio button</h2>
+					</div>
+					<div class="example-panel u-mt-m">
+						<a href="examples/radio-button-small-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<fieldset class="fieldset">
+							<legend class="fieldset__legend">Please select a search type</legend>
+							<div class="radio__items">
+			    				<p class="radio__item">
+			        				<input type="radio" id="business-five" class="radio-small__input" value="business-five" name="search-type-five">
+			        				<label id="business-label-five" class="radio-small__label" for="business-five">Business debtor tracing</label>
+			    				</p>
+			    				<p class="radio__item">
+			        				<input type="radio" id="debtor-tracing-five" class="radio-small__input" value="debtor-tracing-five" name="search-type-five">
+			        				<label id="debtor-tracing-label-five" class="radio-small__label" for="debtor-tracing-five">Consumer debtor tracing</label>
+			    				</p>
+			    				<p class="radio__item">
+			        				<input type="radio" id="customer-management-five" class="radio-small__input" value="customer-management-five" name="search-type-five">
+			        				<label id="customer-management-label-five" class="radio-small__label" for="customer-management-five">Customer management</label>
+			    				</p>
+			  				</div>
+		  				</fieldset>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button5'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button5">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">legend</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset__legend"</span>&gt;</span>Please select a search type<span class="hljs-tag">&lt;/<span class="hljs-name">legend</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__items"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"business-tracing"</span>&gt;</span>Business debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"consumer-tracing"</span>&gt;</span>Consumer debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"customer-management"</span>&gt;</span>Customer management<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span></code>
+					</div>
+
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m">Inline example</h3>
+					</div>
+					<div class="example-panel u-mt-m">
+						<a href="examples/radio-button-small-inline-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<fieldset class="fieldset">
+							<legend class="fieldset__legend">Please select a search type</legend>
+							<div class="radio__items-inline">
+			    				<p class="radio__item">
+			        				<input type="radio" id="business-six" class="radio-small__input" value="business-six" name="search-type-six">
+			        				<label id="business-label-six" class="radio-small__label" for="business-six">Business debtor tracing</label>
+			    				</p>
+			    				<p class="radio__item">
+			        				<input type="radio" id="debtor-tracing-six" class="radio-small__input" value="debtor-tracing-six" name="search-type-six">
+			        				<label id="debtor-tracing-label-six" class="radio-small__label" for="debtor-tracing-six">Consumer debtor tracing</label>
+			    				</p>
+			    				<p class="radio__item">
+			        				<input type="radio" id="consumer-management-six" class="radio-small__input" value="consumer-management-six" name="search-type-six">
+			        				<label id="consumer-management-label-six" class="radio-small__label" for="consumer-management-six">Customer management</label>
+			    				</p>
+			  				</div>
+				  		</fieldset>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button6'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button6">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">legend</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset__legend"</span>&gt;</span>Please select a search type<span class="hljs-tag">&lt;/<span class="hljs-name">legend</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__items-inline"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"business-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"business-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"business-tracing"</span>&gt;</span>Business debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"consumer-tracing"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"consumer-tracing-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"consumer-tracing"</span>&gt;</span>Consumer debtor tracing<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio__item"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__input"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"customer-management"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"search-type"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"customer-management-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"radio-small__label"</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"customer-management"</span>&gt;</span>Customer management<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span></code>
+					</div>
+
+					<div class="seperator u-mt-xl"></div>
+
+		          <section>
+		            <div class="ds-para">
+		              <a id="section4"></a>
+		              <h2 class="u-mt-l u-fs-xl">Design guidelines</h2>
+		              <h3 class="u-mt-m u-fs-m">Always use radio buttons for mutually exclusive options</h3>
+		              <p class="u-fs-body">Radio buttons and checkboxes are not interchangeable. Radio buttons operate as a group and provide mutually exclusive selection values. A user can select only one option in a radio button group while checkboxes are best used for selecting as many options as desired (or none).</p>
+		            </div>
+		            <div class="grid u-mt-m">
+						<div class="grid__col col-6@m">
+							<img src="../img/do-radio-button.svg" alt="Radio button example">
+						</div>
+						<div class="grid__col col-6@m">
+							<img src="../img/dont-radio-button.svg" alt="Radio button example">
+						</div>
+					</div>
+		            
+		          </section>
+
+		          <div class="seperator u-mt-xl"></div>
+
+					<section>
+						<div class="ds-para inline-code">
+							<a id="section5"></a>
+								<h2 class="u-mt-l u-fs-xl">Accessibility</h2>
+								<h3 class="u-mt-m u-fs-m">Always associate the label with the input</h3>
+								<p class="u-fs-body">When a user clicks on the input’s label text, the radio should be activated. To achieve this, an <code>id="example"</code> should be added to the radio <code>&#60;input&#62;</code>. Then, this ID will be used as a <code>for="example"</code> attribute for the <code>&#60;label&#62;</code> element.</p>
+						</div>
+						 <div class="grid u-mt-m">
+							<div class="grid__col col-6@m">
+								<img src="../img/do-association-radio.svg" alt="Label input association example">
+							</div>
+							<div class="grid__col col-6@m">
+								<img src="../img/dont-association-radio.svg" alt="Label input association example">
+							</div>
+						</div>
+						<div class="ds-para inline-code">
+								<h3 class="u-mt-m u-fs-m">Multiple answers or selections</h3>
+								<p class="u-fs-body">By default, there is an HTML element that makes multiple selections more accessible to screen readers.</p>
+								<p class="u-fs-body">The <code>&#60;fieldset&#62;</code> element provides a container for related form controls, and the <code>&#60;legend&#62;</code> element acts as a heading to identify the group. This will highlight the fact that it's a group and there is a question related to it with multiple answers.</p>
+			            </div>
+					</section>
+
+					<div class="seperator u-mt-xl"></div>
+
+					<section>
+					<div class="u-mb-xl">
+						<a id="section6"></a>
+						<h2 class="u-mt-l u-fs-xl">Related research</h2>
+						<ul class="list list--bare u-mt-s">
+							<li class="list__item"><a href="https://a11y-101.com/development/radio-buttons" target="_blank">A11y 101 – Radio buttons</a></li>
+							<li class="list__item"><a href="https://www.w3.org/WAI/tutorials/forms/grouping/" target="_blank">Grouping form controls</a></li><br><br><br>
+						</ul>
+					</div>
+					</section>
+
+					</div>
+
+				</section>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="../js/show-hide.js"></script>
+<script type="text/javascript" src="../js/focus.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="../js/floating-label.js"></script>
+
+</body>
+</html>

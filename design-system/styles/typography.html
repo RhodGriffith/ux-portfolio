@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<title>Typography – Neptune</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link rel="stylesheet" href="../css/master.css" media="all">
+</head>
+
+<body>
+
+<header>
+	<div class="navbar">
+		<div class="ds-hero">
+			<div class="container container--full-width">
+				<div class="grid">
+	    			<div class="grid__col col-3@m">
+						<a href="../index.html"><img src="../img/lexis-icon.svg" class="lexis-icon" alt="Neptune"></a>
+					</div>
+					<div class="grid__col col-9@m">
+						<div class="topnav">
+							<div class="topnav-right">
+								<a href="../index.html">Home</a>
+								<a href="../styles.html" class="active">Styles</a>
+								<a href="../components.html">Components</a>
+								<a href="../patterns.html">Patterns</a>
+								<a href="">Accessibility</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section>
+	<div class="sidenav">
+	  <a href="" class="active">Typography</a>
+	  <a href="colour.html">Colour</a>
+	  <a href="grid.html">Grid</a>
+	  <a href="layout.html">Layout</a>
+	  <a href="iconography.html">Iconography</a>
+	  <a href="branding.html">Branding</a>
+	</div>
+</section>
+
+<main>
+	<div class="main">
+		<div class="sidenav-container">
+			<div class="ds-article">
+				<nav aria-label="Breadcrumb" class="u-mt-l">
+					<ol class="breadcrumb">
+					  <li><a href="../index.html">Home</a></li>
+					  <li><a href="../styles.html">Styles</a></li>
+					  <li class="bc-active">Typography</li>
+					</ol>
+				</nav>
+				<section>
+					<div class="ds-para u-mb-l">
+						<h1 class="u-mt-l u-fs-xxxl">Typography</h1>
+						<p class="u-fs-s">Typography is an essential part of Neptune and brings consistency across all of our products. Good typographic principles establishes visual hierarchy and helps maximise legibility of content and data.</p>
+					</div>
+				</section>
+
+<!-- 				<div class="ds-para u-mb-l">
+					<div class="tab">
+  						<button class="tablinks" onclick="openCity(event, 'Design')" id="defaultOpen">Design guidance</button>
+  						<button class="tablinks" onclick="openCity(event, 'Code')">Code</button>
+					</div>
+				</div> -->
+
+				<div class="seperator u-mt-l"></div>
+
+				<!-- <div id="Design" class="tabcontent"> -->
+
+				<section>
+					<p class="u-fs-m u-dark u-fw-600 u-mt-l">Contents</p>
+					<ol class="list list--bare u-mt-s">
+						<li class="list__item"><a href="#section1">Typeface</a></li>
+						<li class="list__item"><a href="#section2">Type scale</a></li>
+						<li class="list__item"><a href="#section3">Headings type scale</a></li>
+						<li class="list__item"><a href="#section4">Breakpoint font sizes</a></li>
+						<li class="list__item"><a href="#section5">Font weight</a></li>
+						<li class="list__item"><a href="#section6">Lists</a></li>
+						<li class="list__item"><a href="#section7">Design guidelines</a></li>
+						<li class="list__item"><a href="#section8">Accessibility</a></li>
+						<li class="list__item"><a href="#section9">Related research</a></li>
+					</ol>
+				<div class="seperator u-mt-l"></div>
+				</section>
+				<section>
+					<div class="ds-para">
+						<a id="section1"></a>
+						<h2 class="u-mt-l u-fs-xl">Typeface</h2>
+						<p class="u-fs-body">Our brand font, Source Sans Pro, is the primary typeface. There are three different font weights to choose from, Regular (400), Semi-bold (600) and Bold (700).</p>
+					</div>
+					<div class="example-panel u-mt-m u-mb-l">
+							<p class="u-fs-xxl u-fw-400 u-mb-no">Source Sans Pro Regular (400)</p>
+							<p class="u-fs-xxl u-fw-600 u-mb-no">Source Sans Pro Semi-Bold (600)</p>
+							<p class="u-fs-xxl u-fw-700 u-mb-xs">Source Sans Pro Bold (700)</p>
+					</div>
+					<div class="inline-code">
+						<code>Font-family: 'Source Sans Pro', Helvetica Neue, Arial, sans-serif;</code>
+					</div>
+				</section>
+				<section>
+					<div class="ds-para">
+						<a id="section2"></a>
+						<h1 class="u-mt-l u-fs-xl">Type scale</h1>
+						<p class="u-fs-body">To ensure that different size text works together harmoniously on all screen sizes, we apply responsive scaling the typography. The table above demonstrates how type appears on large and smaller screen sizes.</p>
+					</div>
+					<div class="type-scale u-mb-l">
+						<table>
+						  <tr>
+						    <th class="u-ta-left u-fs-s u-fw-600 u-dark">Default <span class="u-fs-s">(768px and above)</span></th>
+						    <th class="u-ta-left u-fs-s u-fw-600 u-dark">Small <span class="u-fs-s">(below 768px)</span></th>
+						  </tr>
+						  <tr class="grey-row">
+						    <td><p class="u-fs-xxxl u-mb-xs">u-fs-xxxl</p><p class="u-fs-body u-mb-xs">52px | 1.2 | Semi-Bold | #000000</p></td>
+						    <td><p class="u-fs-xxxl-table u-mb-xs">u-fs-xxxl</p><p class="u-fs-body u-mb-xs">42px | 1.2 | Semi-Bold | #000000</p></td>
+						  </tr>
+						  <tr>
+								<td><p class="u-fs-xxl u-mb-xs">u-fs-xxl</p><p class="u-fs-body u-mb-xs">40px | 1.2 | Semi-Bold | #000000</p></td>
+						    <td><p class="u-fs-xxl-table u-mb-xs">u-fs-xxl</p><p class="u-fs-body u-mb-xs">32px | 1.2 | Semi-Bold | #000000</p></td>
+						  </tr>
+						  <tr class="grey-row">
+								<td><p class="u-fs-xl u-mb-xs">u-fs-xl</p><p class="u-fs-body u-mb-xs">32px | 1.2 | Semi-Bold | #000000</p></td>
+						    <td><p class="u-fs-xl-table u-mb-xs">u-fs-xl</p><p class="u-fs-body u-mb-xs">26px | 1.2 | Semi-Bold | #000000</p></td>
+						  </tr>
+							<tr>
+								<td><p class="u-fs-l u-mb-xs">u-fs-l</p><p class="u-fs-body u-mb-xs">26px | 1.4 | Semi-Bold | #000000</p></td>
+						    <td><p class="u-fs-l-table u-mb-xs">u-fs-l</p><p class="u-fs-body u-mb-xs">22px | 1.4 | Semi-Bold | #000000</p></td>
+						  </tr>
+							<tr class="grey-row">
+								<td><p class="u-fs-m u-mb-xs">u-fs-m</p><p class="u-fs-body u-mb-xs">22px | 1.4 | Semi-Bold | #000000</p></td>
+						    <td><p class="u-fs-m-table u-mb-xs">u-fs-m</p><p class="u-fs-body u-mb-xs">20px | 1.4 | Semi-Bold | #000000</p></td>
+						  </tr>
+							<tr>
+								<td><p class="u-fs-s u-mb-xs">u-fs-s</p><p class="u-fs-body u-mb-xs">18px | 1.4 | Regular | #4B4B4B</p></td>
+						    <td><p class="u-fs-s u-mb-xs">u-fs-s</p><p class="u-fs-body u-mb-xs">18px | 1.4 | Regular | #4B4B4B</p></td>
+						  </tr>
+							<tr class="grey-row">
+								<td><p class="u-fs-body u-mb-xs">u-fs-body</p><p class="u-fs-body u-mb-xs">16px | 1.4 | Regular | #4B4B4B</p></td>
+						    <td><p class="u-fs-body u-mb-xs">u-fs-body</p><p class="u-fs-body u-mb-xs">16px | 1.4 | Regular | #4B4B4B</p></td>
+						  </tr>
+							<tr>
+								<td><p class="u-fs-xs u-mb-xs">u-fs-xs</p><p class="u-fs-body u-mb-xs">14px | 1.4 | Regular | #4B4B4B</p></td>
+						    <td><p class="u-fs-xs u-mb-xs">u-fs-xs</p><p class="u-fs-body u-mb-xs">14px | 1.4 | Regular | #4B4B4B</p></td>
+						  </tr>
+							<tr class="grey-row">
+								<td><p class="u-fs-xxs u-mb-xs">u-fs-xxs</p><p class="u-fs-body u-mb-xs">12px | 1.4 | Regular | #4B4B4B</p></td>
+						    <td><p class="u-fs-xxs u-mb-xs">u-fs-xxs</p><p class="u-fs-body u-mb-xs">12px | 1.4 | Regular | #4B4B4B</p></td>
+						  </tr>
+						</table>
+					</div>
+					<div class="example-panel u-mt-m u-mb-no">
+						<a href="examples/type-scale-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<p class="u-fs-xxxl">u-fs-xxxl</p>
+						<h1>u-fs-xxl (h1)</h1>
+						<h2>u-fs-xl (h2)</h2>
+						<h3>u-fs-l (h3)</h3>
+						<h4>u-fs-m (h4)</h4>
+						<p class="u-fs-s">u-fs-s</p>
+						<p class="u-fs-body">u-fs-body</p>
+						<p class="u-fs-xs">u-fs-xs</p>
+						<p class="u-fs-xxs">u-fs-xxs</p>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button1'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button1">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-xxxl"</span>&gt;</span>u-fs-xxxl<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>u-fs-xxl (h1)<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>u-fs-xl (h2)<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>u-fs-l (h3)<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>u-fs-l (h4)<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-s"</span>&gt;</span>u-fs-s<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-body"</span>&gt;</span>u-fs-body<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-xs"</span>&gt;</span>u-fs-xs<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-xxs"</span>&gt;</span>u-fs-xxs<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code>
+					</div>
+					<div class="seperator u-mt-xl"></div>
+				</section>
+				<section>
+					<div class="ds-para">
+						<a id="section3"></a>
+						<h1 class="u-mt-l u-fs-xl">Headings type scale</h1>
+						<p class="u-fs-body">The following table shows the type scale for common HTML elements.</p>
+					</div>
+					<div class="heading-scale inline-code">
+						<table>
+						  <tr>
+						    <th class="u-ta-left u-fs-s u-fw-600 u-dark">Element</th>
+						    <th class="u-ta-left u-fs-s u-fw-600 u-dark">Default <span class="u-fs-s">(768px and above)</span></th>
+								<th class="u-ta-left u-fs-s u-fw-600 u-dark">Small <span class="u-fs-s">(below 768px)</span></th>
+						  </tr>
+						  <tr class="grey-row">
+								<td class=""><code>&lt;h1&gt;</code></td>
+						    <td><p class="u-fs-xxl u-mb-no">u-fs-xxl</p></td>
+						    <td><p class="u-fs-xxl-table u-mb-no">u-fs-xxl</p></td>
+						  </tr>
+						  <tr>
+								<td class=""><code>&lt;h2&gt;</code></td>
+								<td><p class="u-fs-xl u-mb-no">u-fs-xl</p></td>
+						    <td><p class="u-fs-xl-table u-mb-no">u-fs-xl</p></td>
+						  </tr>
+							<tr class="grey-row">
+								<td class=""><code>&lt;h3&gt;</code></td>
+								<td><p class="u-fs-l u-mb-no">u-fs-l</p></td>
+						    <td><p class="u-fs-l-table u-mb-no">u-fs-l</p></td>
+						  </tr>
+							<tr>
+								<td class=""><code>&lt;h4&gt;</code></td>
+								<td><p class="u-fs-m u-mb-no">u-fs-m</p></td>
+						    <td><p class="u-fs-m-table u-mb-no">u-fs-m</p></td>
+						  </tr>
+						</table>
+					</div>
+					<div class="seperator u-mt-xl"></div>
+				</section>
+				<section>
+					<div class="ds-para inline-code">
+						<a id="section4"></a>
+						<h2 class="u-mt-l u-fs-xl">Breakpoint font sizes</h2>
+						<p class="u-fs-body">Font sizes can be triggered at certain breakpoints. Just suffix any font size class with <code>@{breakpoint}</code>. For example <code>u-fs-xl@xl</code> will change the font size when the browser width is between 1280-1599px.</p>
+					</div>
+					<div class="example-panel u-mt-m u-mb-no">
+						<a href="examples/breakpoint-fonts-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<p class="u-fs-l@s u-fs-l@m u-fs-l@l u-fs-xl@xl u-fs-xxl@xxl u-mb-m">Example text</p>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button2'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button2">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-l@s u-fs-l@m u-fs-l@l u-fs-xl@xl u-fs-xxl@xxl"</span>&gt;</span>Example text<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code>
+					</div>
+					</section>
+					<div class="seperator u-mt-xl"></div>
+					<section>
+					<div class="ds-para inline-code">
+						<a id="section5"></a>
+						<h2 class="u-mt-l u-fs-xl">Font weight</h2>
+						<p class="u-fs-body">You can override Neptune default font weights by using the following classes:</p> 
+						<ul >
+							<li class="list__item"><code>u-fw-400</code> for regular text</li>
+							<li class="list__item"><code>u-fw-600</code> for semi-bold text</li>
+							<li class="list__item"><code>u-fw-700</code> for bold text</li>
+						</ul>
+					</div>
+					<div class="example-panel u-mt-m u-mb-no">
+						<a href="examples/font-weight-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<p class="u-fs-xxl u-fw-400 u-mb-m">u-fs-xxl regular weight</p>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button3'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button3">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-fs-xxl u-fw-400"</span>&gt;</span>u-fs-xxl regular weight<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code>
+					</div>
+					</section>
+
+					<section>
+					<div class="ds-para">
+						<a id="section6"></a>
+						<h2 class="u-mt-l u-fs-xl">Lists</h2>
+						<p class="u-fs-body">Lists help the reader identify key points in the text by breaking content into concise and manageable chunks.</p> 
+					</div>
+					<div class="ds-para">
+						<h3 class="u-fs-m">Bulleted list</h3>
+					</div>
+					<div class="example-panel u-mt-m u-mb-no">
+						<a href="examples/bulleted-list-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<ul class="list u-mb-m">
+						  <li class="list__item">Full name</li>
+						  <li class="list__item">National Insurance Number</li>
+						  <li class="list__item">Passport number</li>
+						</ul>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button4'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button4">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span>Full name<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span>National Insurance Number<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span>Passport number<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span></code>
+
+					</div>
+					</section>
+
+					<section>
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m">Numbered list</h3>
+						<p class="u-fs-body">Numbered lists should be used for instances in which the items must occur in a specific order, such as steps in a procedure.</p>
+					</div>
+					<div class="example-panel u-mt-m u-mb-no">
+						<a href="examples/numbered-list-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<ol class="list u-mb-m">
+						  <li class="list__item">Fasten your seatbelt</li>
+						  <li class="list__item">Start the engine</li>
+						  <li class="list__item">Look around and drive</li>
+						</ol>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button5'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button5">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">ol</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span>Fasten your seatbelt<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span>Start the engine<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span>Look around and drive<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span></code>
+
+					</div>
+					</section>
+
+					<section>
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m">Bare list</h3>
+						<p class="u-fs-body">Bare lists should be used to display a list of navigational links</p>
+					</div>
+					<div class="example-panel u-mt-m u-mb-no">
+						<a href="examples/bare-list-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<ol class="list list--bare u-mb-m">
+						  <li class="list__item"><a href="#">Contact us</a></li>
+						  <li class="list__item"><a href="#">Help and support</a></li>
+						  <li class="list__item"><a href="#">Feedback</a></li>
+						</ul>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button6'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button6">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list list--bare"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Contact us<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Help and support<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Feedback<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span></code>
+
+					</div>
+					</section>
+
+					<section class="u-mb-xl">
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m">Icon list</h3>
+					</div>
+					<div class="example-panel u-mt-m u-mb-no">
+						<a href="examples/icon-list-example.html" target="_blank" class="example-link u-fw-400">Open in new window</a>
+						<ul class="list list--bare u-mb-m">
+						  <li class="list__item icon--check-green">Electoral Roll</li>
+						  <li class="list__item icon--check-green">Tracesamrt Register</li>
+						  <li class="list__item icon--check-green">Telephone Directory</li>
+						</ul>
+					</div>
+					<div class="toggle">
+						<button onclick="myFunction('button7'); setColor(event)">HTML</button>
+					</div>	
+					<div class="showHide" id="button7">
+						<code class="patternlib-example__code html hljs"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list list--bare"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item icon--check-green"</span>&gt;</span>Electoral Roll<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item icon--check-green"</span>&gt;</span>Tracesamrt Register<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"list__item icon--check-green"</span>&gt;</span>Telephone Directory<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span></code>
+
+					</div>
+					</section>
+
+					<div class="seperator u-mt-xl"></div>
+				<section>
+					<div class="ds-para">
+						<a id="section7"></a>
+						<h2 class="u-mt-l u-fs-xl">Design guidelines</h2>
+						<h3 class="u-mt-m u-fs-m u-fw-600">Only use Neptune font sizes</h3>
+						<p class="u-fs-body">Only choose fonts from Neptune's defined sizes. Using custom font sizes will disrupt the hierarchy and balance of typography in our products.</p>
+					</div>
+						<div class="grid u-mt-m">
+			    		<div class="grid__col col-6@m">
+								<img src="../img/do-typography.svg" alt="Font size example image">
+							</div>
+			    		<div class="grid__col col-6@m">
+								<img src="../img/dont-typography.svg" alt="Font size example image">
+							</div>
+						</div>
+				</section>
+				<section>
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m u-fw-600">Deviating from default font weights</h3>
+						<p class="u-fs-body">Sometimes the weight options of Neptune typography components aren’t suitable for specific scenarios. In these situations, it’s OK to deviate from the default weights by specifying a font weight from our list.</p>
+						<p class="u-fs-body">Don't use a font weight lighter than Source Sans Pro Regular (400) as it's difficult to read.</p>
+					</div>
+					<div class="grid u-mt-m">
+						<div class="grid__col col-6@m">
+							<img src="../img/do-weight.svg" alt="Font weight example image">
+						</div>
+						<div class="grid__col col-6@m">
+							<img src="../img/dont-weight.svg" alt="Font weight example image">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m u-fw-600">Don't change Neptune font colours</h3>
+						<p class="u-fs-body">Don't override default font colours for typography. For example, red should be used for error messages rather than headlines.</p>
+					</div>
+					<div class="grid u-mt-m">
+						<div class="grid__col col-6@m">
+							<img src="../img/do-colour.svg" alt="Font colour example image">
+						</div>
+						<div class="grid__col col-6@m">
+							<img src="../img/dont-colour.svg" alt="Font colour example image">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m u-fw-600">Only use Neptune line heights</h3>
+						<p class="u-fs-body">Don't override Neptune's defined line heights. Optimal line height is between 120 – 150% of the font size. Using too little or too much leading makes content difficult to read.</p>
+					</div>
+					<div class="grid u-mt-m">
+						<div class="grid__col col-6@m">
+							<img src="../img/do-lineheight.svg" alt="Line height example image">
+						</div>
+						<div class="grid__col col-6@m">
+							<img src="../img/dont-lineheight.svg" alt="Line height example image">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m u-fw-600">Line length</h3>
+						<p class="u-fs-body">Shorter lines are more comfortable to read than longer lines as the distance your eyes have to travel to the beginning of the next line is reduced. </p>
+						<p class="u-fs-body">Line lengths for body text should be between 60 to 90 characters.</p>
+					</div>
+					<div class="grid u-mt-m">
+						<div class="grid__col col-12@m">
+							<img src="../img/do-linewidth.svg" alt="Line length example image">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m u-fw-600">Left alight blocks of text</h3>
+						<p class="u-fs-body">With centre aligned text, users have to work harder to find where each line begins to continue reading.</p>
+					</div>
+					<div class="grid u-mt-m">
+						<div class="grid__col col-6@m">
+							<img src="../img/do-alignment.svg" alt="Text alignment example image">
+						</div>
+						<div class="grid__col col-6@m">
+							<img src="../img/dont-alignment.svg" alt="Text alignment example image">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m u-fw-600">Don't use capitals for blocks of text</h3>
+						<p class="u-fs-body">All caps reduces the shape contrast for each word making paragraphs or large blocks of text difficult to read. All caps are fine in contexts that don’t involve much reading, such as sub-headings, acronyms, and abbreviations. </p>
+					</div>
+					<div class="grid u-mt-m">
+						<div class="grid__col col-6@m">
+							<img src="../img/do-alignment.svg" alt="Text example image">
+						</div>
+						<div class="grid__col col-6@m">
+							<img src="../img/dont-caps.svg" alt="Text capitals example image">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="ds-para">
+						<h3 class="u-mt-l u-fs-m u-fw-600">Establish typographic hierarchy</h3>
+						<p class="u-fs-body">Hierarchy is a way of organising type to establish an order of importance within content and data. This enablers the reader to easily find what they are looking for and navigate content on the page.</p>
+						<p>Use a combination of size, weight and colour to help establish typographic hierarchy.</p>
+					</div>
+					<div class="grid u-mt-m">
+						<div class="grid__col col-6@m">
+							<img src="../img/do-hierarchy.svg" alt="Hierarchy example image">
+						</div>
+						<div class="grid__col col-6@m">
+							<img src="../img/dont-hierarchy.svg" alt="Hierarchy example image">
+						</div>
+					</div>
+				</section>
+				<div class="seperator u-mt-xl"></div>
+				<section>
+					<div class="ds-para inline-code">
+						<a id="section8"></a>
+						<h2 class="u-mt-l u-fs-xl">Accessibility</h2>
+						<h3 class="u-mt-m u-fs-m u-fw-600">Heading ranks</h3>
+						<p class="u-fs-body">Nest headings in order, for example, <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>.</p>
+						<p class="u-fs-body">Skipping heading levels should be avoided (e.g. <code>&lt;h1&gt;</code> directly to <code>&lt;h3&gt;</code>) from an accessibility point of view. People using screen readers often rely on navigating by heading so if the structure isn't hierarchical they may not understand the relationship.</p>
+					</div>
+				</section>
+				<section>
+					<div class="ds-para inline-code">
+						<h3 class="u-mt-m u-fs-m u-fw-600">Use semantic markup</h3>
+						<p class="u-fs-body">Use semantic elements to define different parts of a web page.</p>
+						<code>&lt;article&gt;</code><br>
+						<code>&lt;aside&gt;</code><br>
+						<code>&lt;details&gt;</code><br>
+						<code>&lt;figcaption&gt;</code><br>
+						<code>&lt;figure&gt;</code><br>
+						<code>&lt;footer&gt;</code><br>
+						<code>&lt;header&gt;</code><br>
+						<code>&lt;main&gt;</code><br>
+						<code>&lt;mark&gt;</code><br>
+						<code>&lt;nav&gt;</code><br>
+						<code>&lt;section&gt;</code><br>
+						<code>&lt;summary&gt;</code><br>
+						<code>&lt;time&gt;</code><br>
+					</div>
+				</section>
+				<section>
+					<div class="ds-para">
+						<h3 class="u-mt-m u-fs-m u-fw-600">Don't justify text</h3>
+						<p class="u-fs-body u-mb-m">The problem with fully justified text is the kerning, which adds white space between words and letters. This makes the text harder to read, especially for those with cognitive disabilities or dyslexia.</p>
+					</div>
+					<div class="grid u-mb-xl u-mt-m">
+						<div class="grid__col col-6@m">
+							<img src="../img/do-alignment.svg" alt="Text left aligned example image">
+						</div>
+						<div class="grid__col col-6@m">
+							<img src="../img/dont-justify.svg" alt="Text justified example image">
+						</div>
+					</div>
+				</section>
+				<div class="seperator u-mt-xl"></div>
+				<section>
+					<div class="u-mb-xl">
+						<a id="section9"></a>
+						<h2 class="u-mt-l u-fs-xl">Related research</h2>
+						<ul class="list list--bare u-mt-s">
+							<li class="list__item"><a href="https://webaim.org/techniques/fonts/">WebAIM Fonts</a></li>
+							<li class="list__item"><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Compose to a Vertical Rhythm</a></li>
+							<li class="list__item"><a href="https://webaim.org/techniques/fonts/">WCAG – Visual Presentation</a></li>
+							<li class="list__item"><a href="https://a11y-style-guide.com/style-guide/section-general.html#kssref-general-typography">A11y Style Guide: Typography</a></li><br><br><br>
+						</ul>
+					</div>
+				</section>
+				
+		</div>
+	</div>
+</main>
+<script type="text/javascript" src="../js/tabs.js"></script>
+<script type="text/javascript" src="../js/show-hide.js"></script>
+<script type="text/javascript" src="../js/focus.js"></script>
+
+</body>
+</html>
