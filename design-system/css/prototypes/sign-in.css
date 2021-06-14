@@ -1,0 +1,33 @@
+.sign_in_card {
+  max-width: 464px;
+  background-color: #ffffff;
+  padding: 1.5rem 2rem;
+  margin: 4.5rem auto;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: solid 1px #E3E4E5;
+}
+
+.error-container {
+	background-color: #F4F5F6;
+	border-left: 8px solid #DB0022;
+	padding: 1rem;
+	margin-bottom: 1.5rem;
+	display: flex;
+  	align-items: center;
+}
+
+.error-icon {
+	margin-right: 0.85rem;
+	height: 28px;
+	width: 28px;
+
+}
+
+@media only screen and (max-width:500px){
+
+.sign_in_card {
+  margin: 1rem auto;
+}
+
+}
