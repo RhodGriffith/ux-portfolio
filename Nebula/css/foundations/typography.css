@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.display-lg {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1875;
+}
+
+.display-md {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2143;
+}
+
+.display-sm {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.heading-lg {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.heading-md {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2222;
+}
+
+.heading-sm {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.title-xlg {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.4285;
+}
+
+.title-lg {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.title-md {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.title-sm {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5555;
+}
+
+.title-xsm {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.body-default {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.body-sm {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4285;
+}
+
+.body-xsm {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.3333;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.font-color-light {
+  color: #4D6689;
+}
+
+.font-color-dark {
+  color: #001633;
+}
+
+.font-color-white {
+  color: #FFFFFF;
+}
