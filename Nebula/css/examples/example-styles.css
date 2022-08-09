@@ -1,1 +1,44 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
 
+.container-dark {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #001633;
+}
+
+.container-light {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F2F4F7;
+}
+
+.demo {
+  padding: 1rem;
+  background-color: #4E5B64;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.demo--tall {
+  padding: 40px 0;
+}
+
+.visually-hidden {
+  display: none;
+}
