@@ -4,6 +4,7 @@
 
 /* Components for Nebula */
 @import "components/link.css";
+@import "components/text-input.css";
 
 /* CSS files for example pages */
 @import "examples/example-styles.css";
