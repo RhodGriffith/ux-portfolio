@@ -1,0 +1,154 @@
+input {
+  overflow: visible;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+  width: 25rem;
+}
+
+input[type=number],input[type=text]{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+}
+
+.input {
+	display:block;
+	position:relative;
+	padding:0.5rem;
+	border:1px solid #4D6689;
+	border-radius:4px;
+	color:#001633;
+	font-family:inherit;
+	font-size:1rem;
+	line-height:1.875;
+}
+
+.input:hover {
+	border:1px solid #0058E6;
+  outline: 1px solid #0058E6;
+}
+
+.input:focus {
+	border:1px solid #0046B8;
+  outline: 1px solid #0046B8;
+  box-shadow: 0 0 0 4px rgba(153, 188, 245, 1);
+}
+
+.input-second {
+	display:block;
+	position:relative;
+	padding:0.5rem;
+	border:1px solid #4D6689;
+	border-radius:4px;
+	color:#001633;
+	font-family:inherit;
+	font-size:1rem;
+	line-height:1.875;
+}
+
+.input-second:hover {
+	border:1px solid #0058E6;
+}
+
+.input-second:focus {
+  outline: none;
+  border: 1px solid #3379EB;
+  box-shadow: 0 0 0 1px rgba(51, 121, 235, 1);
+
+}
+
+.input-third {
+	display:block;
+	position:relative;
+	padding:0.5rem;
+	border:1px solid #4D6689;
+	border-radius:4px;
+	color:#001633;
+	font-family:inherit;
+	font-size:1rem;
+	line-height:1.875;
+}
+
+.input-third:hover {
+	border:1px solid #0058E6;
+}
+
+.input-third:focus {
+  border:1px solid #001633;
+  outline: 2px solid #3379EB;
+  outline-offset: 3px;
+  transition: outline-offset .25s ease;
+}
+
+/* .input-second:focus {
+  outline: none;
+  outline-offset: -1px;
+  border: 1px solid #3379EB;
+  -webkit-box-shadow: 0 0 0 1px #3379EB;
+  box-shadow: 0 0 0 1px #3379EB;
+} */
+
+.input--text {
+	-webkit-appearance:none;
+	cursor: auto;
+}
+
+.label {
+	display:block;
+	margin-bottom:.5rem;
+	font-weight: 700;
+	color: #001633;
+  line-height: 1.5;
+}
+
+.label-500 {
+	display:block;
+	margin-bottom:.5rem;
+	font-weight: 500;
+	color: #001633;
+  line-height: 1.5;
+}
+
+.label__description {
+	display:inline-block;
+	line-height:1.5;
+	font-size: 0.875rem;
+	font-weight: 400;
+	color: #4b4b4b;
+}
+
+.label--placeholder {
+	position:absolute;
+	top:6px;
+	left:8px;
+	font-size:1rem;
+	font-weight:400;
+}
+
+.visually-hidden {
+  border:0;
+  clip:rect(0 0 0 0);
+  height:1px;
+  margin:-1px;
+  overflow:hidden;
+  padding:0;
+  position:absolute;
+  width:1px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+@media only screen and (max-width:500px){
+
+.input {
+	width: 100%;
+}
+
+}
